@@ -1,6 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/notebook-lod-libraries/master)
-
-[![DOI](https://zenodo.org/badge/254954138.svg)](https://zenodo.org/badge/latestdoi/254954138)
 
 
 Launch the notebook --NotebookApp.iopub_data_rate_limit=1e10
