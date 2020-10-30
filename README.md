@@ -1,10 +1,11 @@
 
 
-Launch the notebook --NotebookApp.iopub_data_rate_limit=1e10
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/transnational-notebooks/HEAD)
 
 
-# notebook-lod-libraries
-Jupyter notebooks to reuse the Linked Open Data provided by digital libraries.
+# transnational-notebook
+Jupyter notebooks to reuse the digital collections provided by digital libraries.
+
 
 ## Biblioteca Virtual Miguel de Cervantes (BVMC)
 This [notebook](bvmc-create-composite.ipynb) retrieves the covers from the Linked Open Data repository of the BVMC, data.cervantesvirtual.com. The covers of the books have been selected based on the authors [Miguel de Cervantes](http://data.cervantesvirtual.com/person/40), [Lope de Vega](http://data.cervantesvirtual.com/person/72) y [Calderón de la Barca](http://data.cervantesvirtual.com/person/79)). It is possible to change the authors by changing the identifiers (data.cervantesvirtual.com/person/id) that can be retrieved at data.cervantesvirtual.com.
@@ -27,5 +28,9 @@ The Bibliothèque nationale de France published [data.bnf.fr](https://data.bnf.f
 
 This [notebook](bnf-graph-example.ipynb) shows how to exploit the editions of *les fleurs du mal de baudelaire* using different techniques. It also provides a CSV file as a dataset extracted from the SPARQL endpoint. This example shows how to analyse the information using the network graphs, identifying the most relevant characteristics of the information retrieved.
 
+
+
 ## References & notes
 This [notebook](create-composite-bvmc.ipynb) has been inspired by the the [GLAM Workbench](https://glam-workbench.github.io/), in particular the [notebook to create a composite image from Trove newspaper](https://nbviewer.jupyter.org/github/GLAM-Workbench/trove-newspapers/blob/master/Composite-thumbnails.ipynb).
+
+* Launch the notebook --NotebookApp.iopub_data_rate_limit=1e10
