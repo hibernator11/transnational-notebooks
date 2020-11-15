@@ -1,0 +1,2675 @@
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/person/Q1296941> a ns1:Person,
+        schema:Person ;
+    ns1:name "Egbert van der Poel" ;
+    schema:identifier "Q1296941" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1296941>,
+        <https://viaf.org/viaf/37188512> .
+
+<http://example.org/person/Q165257> a schema:Person .
+
+<http://example.org/person/Q201315> a schema:Person .
+
+<http://example.org/person/Q205863> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jan Steen" ;
+    schema:identifier "Q205863" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q205863>,
+        <https://viaf.org/viaf/15041897> .
+
+<http://example.org/person/Q2359229> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jan Albertsz Rotius" ;
+    schema:identifier "Q2359229" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2359229>,
+        <https://viaf.org/viaf/95736294> .
+
+<http://example.org/person/Q2581805> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jacob Rotius" ;
+    schema:identifier "Q2581805" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2581805>,
+        <https://viaf.org/viaf/95771549> .
+
+<http://example.org/person/Q3313485> a ns1:Person,
+        schema:Person ;
+    ns1:name "Hans Jordaens" ;
+    schema:identifier "Q3313485" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q3313485>,
+        <https://viaf.org/viaf/95687660> .
+
+<http://example.org/person/Q335927> a ns1:Person,
+        schema:Person ;
+    ns1:name "Gerrit Dou" ;
+    schema:identifier "Q335927" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q335927>,
+        <https://viaf.org/viaf/96538660> .
+
+<http://example.org/person/Q348688> a ns1:Person,
+        schema:Person ;
+    ns1:name "Pieter Leermans" ;
+    schema:identifier "Q348688" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q348688>,
+        <https://viaf.org/viaf/80992813> .
+
+<http://example.org/person/Q354832> a ns1:Person,
+        schema:Person ;
+    ns1:name "Pieter Claesz" ;
+    schema:identifier "Q354832" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q354832>,
+        <https://viaf.org/viaf/47843985> .
+
+<http://example.org/person/Q3806961> a ns1:Person,
+        schema:Person ;
+    ns1:name "Johannes van Haensbergen" ;
+    schema:identifier "Q3806961" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q3806961>,
+        <https://viaf.org/viaf/95853316> .
+
+<http://example.org/person/Q3893270> a schema:Person .
+
+<http://example.org/person/Q5551713> a schema:Person .
+
+<http://example.org/person/Q5682> a schema:Person .
+
+<http://example.org/person/Q5723718> a schema:Person .
+
+<http://example.org/person/Q576009> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jacobus Mancadan" ;
+    schema:identifier "Q576009" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q576009>,
+        <https://viaf.org/viaf/67398457> .
+
+<http://example.org/person/Q5948891> a schema:Person .
+
+<http://example.org/person/Q7192819> a ns1:Person,
+        schema:Person ;
+    ns1:name "Pieter Pietersz Nedek" ;
+    schema:identifier "Q7192819" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7192819>,
+        <https://viaf.org/viaf/96259669> .
+
+<http://example.org/person/Q798827> a ns1:Person,
+        schema:Person ;
+    ns1:name "Lambert Jacobsz" ;
+    schema:identifier "Q798827" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q798827>,
+        <https://viaf.org/viaf/294574511> .
+
+<http://example.org/person/Q978437> a ns1:Person,
+        schema:Person ;
+    ns1:name "Gerard Hoet" ;
+    schema:identifier "Q978437" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q978437>,
+        <https://viaf.org/viaf/69200941> .
+
+<http://example.org/work/ham-184027> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description "Anne-Claude-Philippe de Tubières Comte de Caylus (Lugt 474). Unidentified Collector (Lugt 525). Unidentified Collection, not in Lugt. Sir Joshua Reynolds, London (Lugt 2364). [Anne Wertheimer, Paris], sold; to Maida and George Abrams, Boston, 1976"@en ;
+    schema:identifier 184027 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:50929_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Five Studies of the Head of a Woman"@en .
+
+<http://example.org/work/ham-184384> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description """Sold [through Christie's, London, April 9, 1981], [via Richard Day]; to Maida and George Abrams, Boston\r
+"""@en ;
+    schema:identifier 184384 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:70081_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Two Studies of the Head of an Old Man"@en .
+
+<http://example.org/work/ham-188635> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """[Herbert Feist, New York], sold; to Maida and George Abrams, Boston, 1964; The Maida and George Abrams Collection, 1999.142. \r
+\r
+NOTE: Provenance information from George Abrams, by recall."""@en ;
+    schema:identifier 188635 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71917_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR011571_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "River Scene with Ships"@en .
+
+<http://example.org/work/ham-188870> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description "Possibly Pieter Spiering, Delft and The Hague. Private collection, United Kingdom, sold [private sale, via Sotheby's, London]; to Maida and George Abrams, Boston, 1987 (Lugt 3306, without their mark), gift; to Harvard Art Museums, 1999"@en ;
+    schema:identifier 188870 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:DDC104873_dynmc>,
+        <https://nrs.harvard.edu/urn-3:HUAM:VRS60950_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Bearded Old Man"@en .
+
+<http://example.org/work/ham-191994> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """[Christie's, Amsterdam, 26 November 1984, lot 71], sold; to Maida and George Abrams, Boston; The Maida and George Abrams Collection, 1999.143.\r
+"""@en ;
+    schema:identifier 191994 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71840_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR011570_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape with a Bridge"@en .
+
+<http://example.org/work/ham-197613> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description "None"@en ;
+    schema:identifier 197613 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:72500_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR011394_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Three Sleeping Pigs"@en .
+
+<http://example.org/work/ham-212740> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description """Probably Comte de Caylus, Paris (L. 474, lower right).[1] Unidentified Collector (L. 525, lower right). Sir Joshua Reynolds, London (L. 2364, lower center). Unidentified Collector (probably L. 3172, lower right). [Otto and Anne Wertheimer, Paris], sold; to Maida and George Abrams, Boston, 1976 (L. 3306, verso, lower left); The Maida and George Abrams Collection, Gift of George Abrams in memory of Jeff Coolidge, Harvard Class of 1954, 2011.513.\r
+\r
+"""@en ;
+    schema:identifier 212740 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:51955_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Six Studies of an Old Woman's Head"@en .
+
+<http://example.org/work/ham-233002> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description "None"@en ;
+    schema:identifier 233002 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193531_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "The Ruins of a Temple, in the Foreground Two Men and a Dog"@en .
+
+<http://example.org/work/ham-238239> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest; to Belinda Lull Randall, his sister, gift; to Harvard University, 1892\r
+"""@en ;
+    schema:identifier 238239 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV183420_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "The Fresh Morning"@en .
+
+<http://example.org/work/ham-239350> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, gift to Harvard University, 1892. sister of John Witt Randall\r
+"""@en ;
+    schema:identifier 239350 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV139142_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Departure for the Market"@en .
+
+<http://example.org/work/ham-240451> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, sister of John Witt Randall, gift to Harvard University, 1892.\r
+"""@en ;
+    schema:identifier 240451 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV176328_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "The charlatans"@en .
+
+<http://example.org/work/ham-244933> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description "None"@en ;
+    schema:identifier 244933 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV191001_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Fortune Pouring out the Horn of Plenty Before Hercules"@en .
+
+<http://example.org/work/ham-245041> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, gift to Harvard University, 1892. sister of John Witt Randall\r
+"""@en ;
+    schema:identifier 245041 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193742_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape with Ass Between Two Sheep"@en .
+
+<http://example.org/work/ham-245045> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, gift to Harvard University, 1892. sister of John Witt Randall\r
+"""@en ;
+    schema:identifier 245045 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193523_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Four Mountains"@en .
+
+<http://example.org/work/ham-245196> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q17343011> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, sister of John Witt Randall, gift to Harvard University, 1892.\r
+"""@en ;
+    schema:identifier 245196 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV173202_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Aristotle (from The School of Athens)"@en .
+
+<http://example.org/work/ham-245208> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest; to Belinda Lull Randall, his sister, gift; to Harvard University, 1892\r
+"""@en ;
+    schema:identifier 245208 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193525_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape, with Two Men and a Stone in the Water"@en .
+
+<http://example.org/work/ham-245209> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """John Witt Randall, bequest to his sister.\r
+Belinda Lull Randall, gift to Harvard University, 1892. sister of John Witt Randall\r
+"""@en ;
+    schema:identifier 245209 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193530_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape, with Two Mulesteers"@en .
+
+<http://example.org/work/ham-273075> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Francis Calley Gray, bequest to nephew, 1856.\r
+William Gray, gift to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 273075 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV172723_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Flemish Gentleman"@en .
+
+<http://example.org/work/ham-275483> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description "None"@en ;
+    schema:identifier 275483 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193741_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Ewe and Lamb (The Lamb with the Lambkin)"@en .
+
+<http://example.org/work/ham-275531> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Lord Ashburnham. Francis Calley Gray, bequest; to William Gray, his nephew, 1856, gift; to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 275531 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV100738_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Regnier Hansloe, An Anabaptist Minister, and His Wife"@en .
+
+<http://example.org/work/ham-275541> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q719666> ;
+    schema:description """Francis Calley Gray, bequest; to William Gray, his nephew, 1856, gift; to Harvard University, 1857\r
+"""@en ;
+    schema:identifier 275541 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV193735_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Sheep Lying Before a Fence"@en .
+
+<http://example.org/work/ham-276172> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Francis Calley Gray, bequest to nephew, 1856.\r
+William Gray, gift to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 276172 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV195748_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Gold Weigher"@en .
+
+<http://example.org/work/ham-276915> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Francis Calley Gray, bequest; to William Gray, his nephew, 1856, gift; to Harvard University, 1857\r
+"""@en ;
+    schema:identifier 276915 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV173632_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Rembrandt"@en .
+
+<http://example.org/work/ham-278958> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """J.A. Boerner (Lugt 269),\r
+F. Kalle (Lugt 1021)."""@en ;
+    schema:identifier 278958 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV191652_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Self-Portrait in a Velvet Cap with Plume"@en .
+
+<http://example.org/work/ham-279251> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Francis Calley Gray, bequest to nephew, 1856.\r
+William Gray, gift to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 279251 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV192002_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Pieter Haaringh (\"Young Haaringh\")"@en .
+
+<http://example.org/work/ham-279252> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Pierre Mariette.\r
+Prince de Paar.\r
+Francis Calley Gray, bequest to nephew, 1856.\r
+William Gray, gift to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 279252 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV191994_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Jan Lutma, Goldsmith"@en .
+
+<http://example.org/work/ham-279260> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """W. Ackermann.\r
+Francis Calley Gray, bequest to nephew, 1856.\r
+William Gray, gift to Harvard University, 1857.\r
+"""@en ;
+    schema:identifier 279260 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV192004_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "The First Oriental Head"@en .
+
+<http://example.org/work/ham-296613> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """Marian H. Phinney, bequest; to Fogg Art Museum, 1962.\r
+"""@en ;
+    schema:identifier 296613 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71351_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape"@en .
+
+<http://example.org/work/ham-297023> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description "Possibly Andrew Geddes, A.R.A., London; his sale [Christie and Manson, London, 8 April 1845, lot 361?]. Possibly on loan; to Mauritshuis, The Hague. Mr. Johnson Neale. T. Mark Hovell, London, 1918. [Sotheby's, London, 3 July 1981, lot 124], sold; to [P. & D. Colnaghi, London]. A.W.M. Mensing, Amsterdam, his sale; [Frederick Muller & Co., Amsterdam, 29 April 1937, lot 218], sold; to Otto Hirschman, sold; to A. Mayer, The Hague and New York. van Dieman-Lilienfeld Gallery, 1957, sold; to Marian Harris Phinney, 1960, bequest; to Fogg Art Museum, 1962."@en ;
+    schema:identifier 297023 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71349_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR011568_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Three Studies of a Cow"@en .
+
+<http://example.org/work/ham-298220> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description "John M. MacGowan, Edinburgh (L. 1496, without his mark), possibly his sale, [T. Philipe, London, 26 January-4 February 1804, lot 270]. Charles Loeser, Florence, Italy, bequest; to Fogg Art Museum, 1932."@en ;
+    schema:identifier 298220 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71339_dynmc>,
+        <https://nrs.harvard.edu/urn-3:HUAM:STR011539> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Landscape with a River View"@en .
+
+<http://example.org/work/ham-298593> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """Charles A. Loeser, Florence, Italy, acquired in The Hague, 1901, bequest; to Fogg Art Museum, 1932.\r
+"""@en ;
+    schema:identifier 298593 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:71338_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Peaked Roof Building"@en .
+
+<http://example.org/work/ham-344642> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description "None"@en ;
+    schema:identifier 344642 ;
+    schema:image <https://nrs.harvard.edu/urn-3:huam:STR011252_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "X-radiograph(s) of \"Village Street (illegible)\""@en .
+
+<http://example.org/work/ham-347334> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description "None"@en ;
+    schema:identifier 347334 ;
+    schema:image <https://nrs.harvard.edu/urn-3:huam:STR007125_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR007126_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR007127_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR007128_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR007129_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR007130_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "X-radiograph(s) of \"Harbor Scene\""@en .
+
+<http://example.org/work/ham-360603> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:description """Reinhold von Liphart (Lugt 1758), sold [through his sale, 1898, lot 963 (as by Esaias van de Velde)]. Rudolf Philip Goldschmidt, sold [through his sale, November 4, 1917, lot 597]. [Adolphe Stein, Paris], sold; to Maida and George Abrams, Boston, 1988\r
+"""@en ;
+    schema:identifier 360603 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:769042> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Village Street with Travelers Resting"@en .
+
+<http://example.org/work/ham-57800> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description "None"@en ;
+    schema:identifier 57800 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV201473_dynmc>,
+        <https://nrs.harvard.edu/urn-3:HUAM:INV201474_dynmc>,
+        <https://nrs.harvard.edu/urn-3:HUAM:INV201475_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Florentina, a Courtesan, and the Hermit"@en .
+
+<http://example.org/work/ham-93394> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q5598> ;
+    schema:description """Carel Emile Duits, London (Lugt 533a). John and Stephen Somerville, London, sold; to George Abrams, Boston, 2003\r
+"""@en ;
+    schema:identifier 93394 ;
+    schema:image <https://nrs.harvard.edu/urn-3:HUAM:INV001816_dynmc>,
+        <https://nrs.harvard.edu/urn-3:huam:STR011602_dynmc> ;
+    schema:license <https://github.com/harvardartmuseums/api-docs#terms-of-use> ;
+    schema:maintainer <https://api.harvardartmuseums.org> ;
+    schema:name "Kneeling Shepherd"@en .
+
+<http://example.org/work/ri-nl-RP-F-2001-7-1734-1> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759747> ;
+    schema:identifier "nl-RP-F-2001-7-1734-1" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Fotoreproductie van een schilderij van een stilleven met dode vogels door Evert van Aelst"@nl,
+        "Fotoreproductie van een schilderij van een stilleven met dode vogels door Evert van Aelst, Alexandre (fotograaf), ca. 1879 - in of voor 1884"@nl .
+
+<http://example.org/work/ri-nl-RP-P-1878-A-1058> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1878-A-1058" ;
+    schema:image <https://lh4.ggpht.com/GmMvnVHBaWhKwUklBfW03Bnhp2fOj3J8v0ZiWeODw7p2zTfaYAskwvwQsGGZz9QehQU3o3Qv6S9nHIyzJKstuWTNYk4v=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jacob Sasbout Souburg"@nl,
+        "Portret van Jacob Sasbout Souburg, Arnold Houbraken, 1670 - 1694"@nl ;
+    schema:width 1768 .
+
+<http://example.org/work/ri-nl-RP-P-1878-A-1543> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 1804 ;
+    schema:identifier "nl-RP-P-1878-A-1543" ;
+    schema:image <https://lh6.ggpht.com/pOHR7jAwaigESpZ2TSH9t2dkcE1VEypoSVJBq82eOF4YAPuQ1ZDcGjtin8ZPujnVIzxHJMwCHHBjhboKmtyRKTvenErB=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "? Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Knoestige bomen aan het water"@nl,
+        "Knoestige bomen aan het water, Roelant Savery, 1605 - 1639"@nl ;
+    schema:width 2148 .
+
+<http://example.org/work/ri-nl-RP-P-1878-A-2481> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:identifier "nl-RP-P-1878-A-2481" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De Schuttersmaaltijd van 1648 naar B. van der Helst; onafgewerkten staat"@nl,
+        "De Schuttersmaaltijd van 1648 naar B. van der Helst; onafgewerkten staat, Johann Wilhelm Kaiser (I), 1849"@nl .
+
+<http://example.org/work/ri-nl-RP-P-1882-A-6717> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1882-A-6717" ;
+    schema:image <https://lh5.ggpht.com/iiTo2qHj8U5EvwLsnUeJpEqSypFnVRgipAhzND7GxbaMdHURNAG-xyeGqUzHF4L6CmQEpe7VtlTtfJmp3obdMamfqQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkmeisje"@nl,
+        "Het melkmeisje, Jurriaan Cootwijck, 1724 - 1798"@nl ;
+    schema:width 1958 .
+
+<http://example.org/work/ri-nl-RP-P-1882-A-6718> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1882-A-6718" ;
+    schema:image <https://lh3.ggpht.com/2Yf1qnx0lD6HN8ewwgXQ8xkUwrt4vYp3X-xIY1971MlC4gyGkMD0kTJTa97daifB4YvTkdeQXiVOYyD_XT6EhdOtphQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Keukenmeid met tobbe"@nl,
+        "Keukenmeid met tobbe, Jurriaan Cootwijck, 1724 - 1798"@nl ;
+    schema:width 1866 .
+
+<http://example.org/work/ri-nl-RP-P-1882-A-6778> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1882-A-6778" ;
+    schema:image <https://lh5.ggpht.com/bO8t3EH-hFIimiueuu7zUX6CG4Zo-gZvOPt8Q3TuKT_s96R0p1A3tf4mgAZ2RPEaTJ_ivoei12c_guBhoU8WvYeFFfM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkmeisje"@nl,
+        "Het melkmeisje, Jurriaan Cootwijck, 1724 - 1798"@nl ;
+    schema:width 1891 .
+
+<http://example.org/work/ri-nl-RP-P-1882-A-6779> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1882-A-6779" ;
+    schema:image <https://lh4.ggpht.com/DGPVDBA8pV2UglUZkl6VzeH8a5x3nNDORZ4caUzo1Sp1bmx9j1nKavCcPwVPnztR27D60DWKSK9SkGhiW9pKWvi__78=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkmeisje"@nl,
+        "Het melkmeisje, Jurriaan Cootwijck, 1724 - 1798"@nl ;
+    schema:width 1900 .
+
+<http://example.org/work/ri-nl-RP-P-1884-A-8021> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1884-A-8021" ;
+    schema:image <https://lh4.ggpht.com/OdqzXwWcsN8WQaZDh-lZhVGTi2JzJauPvSZCpnb1wA6hDx-evkmj-YoJOrSQllK0w49ROdPIod9tCdscn8E5I-9vGSrH=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Boereninterieur met geslacht varken"@nl,
+        "Boereninterieur met geslacht varken, Jacob Louys (1620-ca.1673), 1630 - 1673"@nl ;
+    schema:width 1945 .
+
+<http://example.org/work/ri-nl-RP-P-1889-A-15063> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1889-A-15063" ;
+    schema:image <https://lh6.ggpht.com/RF5fSOlk5N4pIvY9uyY3GQGPKVMIa49JYzepMy1qChfkOY7LvpfdnFv_li4PgYgBDVVnJz8ytVHRvhnJhuSTCEBpo_c=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Boereninterieur met geslacht varken"@nl,
+        "Boereninterieur met geslacht varken, Jacob Louys (1620-ca.1673), 1630 - 1673"@nl ;
+    schema:width 2003 .
+
+<http://example.org/work/ri-nl-RP-P-1894-A-18564> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 5391 ;
+    schema:identifier "nl-RP-P-1894-A-18564" ;
+    schema:image <https://lh3.googleusercontent.com/u_KD0uLm63UwhsN2pTa4Y0VDxiA0A232lx2NGuobGW7T5PdaKswmKETIQ8_3UjKWxdu45VZHGtbEH-g8vOaGEeiU_ZA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Cornelis Witsen"@nl,
+        "Portret van Cornelis Witsen, Jacob Houbraken, 1796"@nl ;
+    schema:width 3652 .
+
+<http://example.org/work/ri-nl-RP-P-1904-278> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2622 ;
+    schema:identifier "nl-RP-P-1904-278" ;
+    schema:image <https://lh3.googleusercontent.com/o-UazUpOtVQwj0LRhmqaHdmKWFQGfAWd_kf_Fa6NNlr-3QVOTQVpp4ZvJWsqCewu_iuQxpqgLc5xzO4KYvO9y-uwHQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Diane de Poitiers, afgebeeld als de godin Diana"@nl,
+        "Diane de Poitiers, afgebeeld als de godin Diana, Abraham Bloteling, 1655 - 1690"@nl ;
+    schema:width 1914 .
+
+<http://example.org/work/ri-nl-RP-P-1904-4536> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1904-4536" ;
+    schema:image <https://lh4.ggpht.com/DKjA65XLpBXTWqcpeZlFUqTCO_LvuEi9KqUCuDFk7EI44HYXWvqIxJWoexCgV1YyBo62KAsLRjNvC2zqtnwHjil6b43f=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Steven Blankaart"@nl,
+        "Portret van Steven Blankaart, Jacob Gole, 1670 - 1724"@nl ;
+    schema:width 1784 .
+
+<http://example.org/work/ri-nl-RP-P-1906-2926> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-2926" ;
+    schema:image <https://lh4.ggpht.com/ZJ2s5n6MYGkFXJANE_IMMY7QxpOOUMAmSWwxHs5AiXokSx5p_c8nKAEWYDpJS1aDZFQT67eRTADXOaZJN3wa4pV-14s=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Willem Surenhuys"@nl,
+        "Portret van Willem Surenhuys, Abraham de Blois, 1679 - 1717"@nl ;
+    schema:width 1727 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3141> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3141" ;
+    schema:image <https://lh6.ggpht.com/-p-VR_DQElJCeAwGrDuaiZ4TSYKeyOL2zaN-Dmo_Qe9csVb1XhONZEgCwr0S4H8L_h2LRF7ISjcDZDtnFfWn2DutVw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van René Descartes"@nl,
+        "Portret van René Descartes, Jacob Gole, 1670 - 1724"@nl ;
+    schema:width 1793 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3146> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3146" ;
+    schema:image <https://lh3.ggpht.com/EdzgmsCggI6iO6KI5VZkXQ4zqa084cXtROJafm3_SsswBv6za3M4Qv65o-PVdvPncJEtpD1bn4avLJsCQKjA_-SNRKo=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zelfportret van Jacob Gole"@nl,
+        "Zelfportret van Jacob Gole, Jacob Gole, 1680 - 1724"@nl ;
+    schema:width 1835 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3292> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3292" ;
+    schema:image <https://lh4.ggpht.com/0Zx-3eHuzo8k_KhbfFuiDfdEQGqzhPhDvHOhEKkkozzxBd491iJjJigeMBbGjneXzM2sPrW1eTchff1ZjJ28dJoWy2E=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Noordelijke Nederlanden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Jongen met een rommelpot"@nl,
+        "Jongen met een rommelpot, Johannes de Groot (II), 1698 - 1776"@nl ;
+    schema:width 2171 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3360> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3360" ;
+    schema:image <https://lh3.ggpht.com/nSlyrRXA1lbjorSEIUBdy2cOPhVUVwYeP-Ai84Xz2SwHuDIstbpqdQU-ztdXi-TcuOyH_nMI8K7TPc0xquQtHwu6cg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Noordelijke Nederlanden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Cornelis de Witt"@nl,
+        "Portret van Cornelis de Witt, Cornelis A. Hellemans, 1660 - 1700"@nl ;
+    schema:width 2181 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3465> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3465" ;
+    schema:image <https://lh6.ggpht.com/GcV2yq_NdUxLDhJabNEOwxT3mdOWorsJDKReEtdjrxxAf3Qk2c0L8WcmRGqtVZdT-VL2rZgS4Fa_soTnCd5_FvHXrrpS=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jan van Hoogstraten"@nl,
+        "Portret van Jan van Hoogstraten, Arnold Houbraken, 1682 - 1719"@nl ;
+    schema:width 1979 .
+
+<http://example.org/work/ri-nl-RP-P-1906-3466> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1906-3466" ;
+    schema:image <https://lh6.ggpht.com/nWe2WIWDM2O-Vq809ElBmc4PUi0fX7Rq2XPOPC9rVGv01WpLAI8toy4ssk36uP30MhdYZbU_zazeWGLv3FdSJGA83CI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jakob Zeeus"@nl,
+        "Portret van Jakob Zeeus, Arnold Houbraken, 1706 - 1719"@nl ;
+    schema:width 1764 .
+
+<http://example.org/work/ri-nl-RP-P-1907-2986> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2946 ;
+    schema:identifier "nl-RP-P-1907-2986" ;
+    schema:image <https://lh5.ggpht.com/f2Z9bAWwmgOARfc8ZsC7F5MVQMsvx-U9h-Or-Vtaw-zpyxEhtP376ujpzrWn2el-f2lrOy9wzNTYB5oEyEbkJxFx9j8=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van predikant Joannes Vollenhove"@nl,
+        "Portret van predikant Joannes Vollenhove, Abraham de Blois, 1679 - 1717"@nl ;
+    schema:width 1883 .
+
+<http://example.org/work/ri-nl-RP-P-1908-2575> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:identifier "nl-RP-P-1908-2575" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Den Haag"@nl,
+        "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkmeisje"@nl,
+        "Het melkmeisje, Henri Koetser, 1908"@nl .
+
+<http://example.org/work/ri-nl-RP-P-1908-419> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1908-419" ;
+    schema:image <https://lh3.ggpht.com/ibY8Xj37dn9-M_bjBGifozxbzLgzBAIgMvuL0pefrPYnG_0ax_tE4hV_3pu07oDJiLZLh-yTdtZ2qqNkO3QjQx8FTrE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Gerbrand van Leeuwen"@nl,
+        "Portret van Gerbrand van Leeuwen, Pieter van der Plas (II), 1687 - 1708"@nl ;
+    schema:width 1865 .
+
+<http://example.org/work/ri-nl-RP-P-1908-420> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1908-420" ;
+    schema:image <https://lh5.ggpht.com/3ijNXJHuiXjGbcvmsLFfnZKQ4XUrC28nPqqIUsaxG8IGeNTpzNElA7Xu_0G8ZZSz4GG3EHhbkv5yN6MveQb28vS42KQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Gerbrand van Leeuwen"@nl,
+        "Portret van Gerbrand van Leeuwen, Pieter van der Plas (II), 1687 - 1708"@nl ;
+    schema:width 1896 .
+
+<http://example.org/work/ri-nl-RP-P-1909-150> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1909-150" ;
+    schema:image <https://lh3.ggpht.com/9AU45cv6eEh89TieXwI0vSt0TZ-qE6s6sgZcTmRa2Yj6DyT4qHSXYzHXNA2yDEN2pPTMXqwROfRyGIUMH7IPzoH6ZKY=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Rommelpotspeler"@nl,
+        "Rommelpotspeler, Jan van Somer, 1655 - 1700"@nl ;
+    schema:width 1874 .
+
+<http://example.org/work/ri-nl-RP-P-1911-184> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1911-184" ;
+    schema:image <https://lh4.ggpht.com/BIvHIGbksdNN0L7YwwAS0tR3qCKj6kZ5oX2FDVyFUjPd_Rcjl2oe8b6zdKoA2ed0FAUPbZ0qGlG0XH6tLYPAFZeSJ1k=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jacob Moelaert"@nl,
+        "Portret van Jacob Moelaert, Nicolaas Verkolje, 1683 - 1746"@nl ;
+    schema:width 1897 .
+
+<http://example.org/work/ri-nl-RP-P-1935-209> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 1908 ;
+    schema:identifier "nl-RP-P-1935-209" ;
+    schema:image <https://lh3.ggpht.com/nDe2XIguyumT8lBzJkzGYP-o4vTWwHDCIxUs6A0wmFdMshhPjHEknJQ5zUKPIIo-Bvd5nm1hI_Vo8-gAye_p6xuCCXg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Verkondiging aan de herders"@nl,
+        "Verkondiging aan de herders, Govert van der Leeuw, ca. 1680"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-1936-178> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2117 ;
+    schema:identifier "nl-RP-P-1936-178" ;
+    schema:image <https://lh6.ggpht.com/GmgW8S739XkbSjQbPzdW23kalwjd-RjhLoYAZuVAiYPLjt5MkUQxj8fZ1VuI20Wq0gsvWVKc_3gy22DJAx_uOZwAIqU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Haarlem"@nl,
+        "Leiden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Binnenplaats met trap"@nl,
+        "Binnenplaats met trap, Jacobus Ludovicus Cornet, 1851"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-1936-353> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1936-353" ;
+    schema:image <https://lh6.ggpht.com/eFXZuBaYd7l_1wjtdRdZddbcm4hnIhBT2Q2iO4ZseniF3LVYU8_vCceYt9OlxFa-zcArjxPdFtKCcFG-naxkiag4sio=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Johannes Wtenbogaert"@nl,
+        "Portret van Johannes Wtenbogaert, Jacob van Loo, 1624 - 1670"@nl ;
+    schema:width 1815 .
+
+<http://example.org/work/ri-nl-RP-P-1936-403> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 2101 ;
+    schema:identifier "nl-RP-P-1936-403" ;
+    schema:image <https://lh6.ggpht.com/tPBQa6JjUi1VZx24FJZ2PeicavWDz8cBiGbdR6ABL0kIXwRwtZpFnMZS3HAftsW_oSGNGUVi6e-c2uLSQ2GdEJS0YoA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Ram"@nl,
+        "Ram, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-1937-1119> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1937-1119" ;
+    schema:image <https://lh4.ggpht.com/PT0k4NWfN-LWoei9GdSJcUquvTlmLq8WFoy3PDEkWSHqxscw3T-SFXx-iJI9WSR3on_cYfWeT8e-JGtqi_pV0brfvBY=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Andries Bicker"@nl,
+        "Portret van Andries Bicker, Jacob Houbraken, 1760"@nl ;
+    schema:width 1639 .
+
+<http://example.org/work/ri-nl-RP-P-1937-1196> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 5391 ;
+    schema:identifier "nl-RP-P-1937-1196" ;
+    schema:image <https://lh3.googleusercontent.com/UUj94Vq-CkMynJ27wZEAOldgXMxFfcwXN0lVob7nyii9M4kLxbGj-wlmHBrBmjp8Uz0gmkI_-O--zj1vDb4F0gsT750=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Cornelis Witsen"@nl,
+        "Portret van Cornelis Witsen, Jacob Houbraken, 1796"@nl ;
+    schema:width 3617 .
+
+<http://example.org/work/ri-nl-RP-P-1940-1401> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1940-1401" ;
+    schema:image <https://lh4.ggpht.com/e2za7O-FSHqHeMYvM2RkmQM8pCXSAIEGgMs68pGxOk1BnnBcalnnn_YBX-keLGPA6MWW9ovCSLuhMhPx02jSqnq1Eg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Johan van Gool"@nl,
+        "Portret van Johan van Gool, Jacob Houbraken, 1749"@nl ;
+    schema:width 1640 .
+
+<http://example.org/work/ri-nl-RP-P-1940-652> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:identifier "nl-RP-P-1940-652" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Den Haag"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portretten van Jacob Appel, Dirk Dalens en Jan Wandelaar"@nl,
+        "Portretten van Jacob Appel, Dirk Dalens en Jan Wandelaar, Pieter Tanjé, 1751"@nl .
+
+<http://example.org/work/ri-nl-RP-P-1940-749> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:identifier "nl-RP-P-1940-749" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Den Haag"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portretten van Cornelis de Bruyn, Theodorus Netscher en Bonaventura van Overbeek"@nl,
+        "Portretten van Cornelis de Bruyn, Theodorus Netscher en Bonaventura van Overbeek, Jacob Houbraken, 1750"@nl .
+
+<http://example.org/work/ri-nl-RP-P-1941-294> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1941-294" ;
+    schema:image <https://lh6.ggpht.com/LZihBhQJIjxQMdwXtZZTztAXubpti49ccBdvZnE0SccdKD-JQ57zCYRgMqku6nOgUD_-NAxMrNt2cYxCW8vI8Vf3cCE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Adriaan Dortsman"@nl,
+        "Portret van Adriaan Dortsman, Pieter van der Plas (II), 1687 - 1708"@nl ;
+    schema:width 1864 .
+
+<http://example.org/work/ri-nl-RP-P-1949-377> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1949-377" ;
+    schema:image <https://lh3.googleusercontent.com/XE1ohEM6bBbrI0skZ_sre10B3cIRz0VhxQRS6SCAi-4qMopetWp-jAjM7x6k-AeGrMa_21KehLysPz2pMfc2efif6OG2=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Frankrijk"@nl,
+        "Parijs"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Gebed voor de maaltijd"@nl,
+        "Gebed voor de maaltijd, Pierre François Basan, 1733 - 1797"@nl ;
+    schema:width 1879 .
+
+<http://example.org/work/ri-nl-RP-P-1960-355> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-1960-355" ;
+    schema:image <https://lh3.ggpht.com/VBwmBP2TCE2GykAtYfaJLk0PI9TqMXVGdKSpv_PZ0F1jt14XKrZBnYmz4Yqot6C1JbgvzKOBqAucYnLaNDnXy2X7cZI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met kan, roemer en schaal met citroenen"@nl,
+        "Stilleven met kan, roemer en schaal met citroenen, Carel Lodewijk Dake, 1867 - 1918"@nl ;
+    schema:width 1899 .
+
+<http://example.org/work/ri-nl-RP-P-2004-75-20> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:identifier "nl-RP-P-2004-75-20" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Den Haag"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Cornelis Troost en Gerard Melder"@nl,
+        "Portret van Cornelis Troost en Gerard Melder, Pieter Tanjé, 1750"@nl .
+
+<http://example.org/work/ri-nl-RP-P-BI-1750> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2852 ;
+    schema:identifier "nl-RP-P-BI-1750" ;
+    schema:image <https://lh3.googleusercontent.com/o_Hmex3NsttCCFh2RaFENFn-Q9y9-l2SvL3WWQPXkIGWjvEfJvAULZkYDM8xaNBduIgDCWQfKF2OkKINfcHaVYhDvecw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van predikant Joannes Vollenhove"@nl,
+        "Portret van predikant Joannes Vollenhove, Abraham de Blois, 1679 - 1717"@nl ;
+    schema:width 2068 .
+
+<http://example.org/work/ri-nl-RP-P-BI-1751> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2856 ;
+    schema:identifier "nl-RP-P-BI-1751" ;
+    schema:image <https://lh3.googleusercontent.com/h6MgsQaUNR9quU9KLsfy7qWVFidyRfjLXhMBnW-Mls1Sv-FfZgc9R0L-TJNchpK5W8I8AWYgu3s-TaY1THm4wvn1zyI9=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van predikant Joannes Vollenhove"@nl,
+        "Portret van predikant Joannes Vollenhove, Abraham de Blois, 1679 - 1717"@nl ;
+    schema:width 1997 .
+
+<http://example.org/work/ri-nl-RP-P-BI-575> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 3000 ;
+    schema:identifier "nl-RP-P-BI-575" ;
+    schema:image <https://lh5.ggpht.com/UVENM9G4DAusSdvPk3lZrWVd2dIkTz3M81WLiBkZ_EVk7LqKtBRjeot5r4d8dA2It2NYQRXYwadK3Ku8-dpuhuNG3B8=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Lieuwe van Aitzema"@nl,
+        "Portret van Lieuwe van Aitzema, Hendrik Bary, 1666"@nl ;
+    schema:width 1960 .
+
+<http://example.org/work/ri-nl-RP-P-BI-617> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2760 ;
+    schema:identifier "nl-RP-P-BI-617" ;
+    schema:image <https://lh3.ggpht.com/XE93XgsU5XCIMSaXyoq9MA4HG5PK1dns3i-xHw1HvTwK2kzkaM5czvc3-5teOm1HZ1gnzwafNkSVti7WiKKOnXCEPuY=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van admiraal Cornelis Tromp"@nl,
+        "Portret van admiraal Cornelis Tromp, Hendrik Bary, 1657 - 1707"@nl ;
+    schema:width 2086 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6349X> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2089 ;
+    schema:identifier "nl-RP-P-BI-6349X" ;
+    schema:image <https://lh4.ggpht.com/xz8Ail5I3HdRjobdOIzcwgb6D8rKrIT8Pwq81ocv1rT2iGoLMaK9n8FBtqueRZkipaH7HLDyk_oyCdKwMRZ78m2lmw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Leiden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Binnenplaats met trap"@nl,
+        "Binnenplaats met trap, Jacobus Ludovicus Cornet, 1851"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6383X> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-BI-6383X" ;
+    schema:image <https://lh3.ggpht.com/w3KJH43mWV3sv5VjrNR_NkDwJJLvzHi5DWKT3Ch_IuNP7yJgmCsUKCOSPYKAhmo1vw0LLRX0y-XnauK7RL1Jlx6UEtSp=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Haarlem"@nl,
+        "Leiden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Koopman in zijn kantoor"@nl,
+        "Koopman in zijn kantoor, Jacobus Ludovicus Cornet, 1825 - 1882"@nl ;
+    schema:width 2139 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6385X> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-BI-6385X" ;
+    schema:image <https://lh4.ggpht.com/bcJpxf_2Cy-3Xyqrtta8QuYquqTYHS9Vq9S0zvRYDS_dx203IYdNOrzclcBIn-INmkM8toDItyLIrTkw2ctQSIbCrbk=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Haarlem"@nl,
+        "Leiden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Koopman in zijn kantoor"@nl,
+        "Koopman in zijn kantoor, Jacobus Ludovicus Cornet, 1825 - 1882"@nl ;
+    schema:width 2051 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6386X> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-BI-6386X" ;
+    schema:image <https://lh6.ggpht.com/JLrHZV20-8IQVk_-C-H93U-5PHVX8zNswAVJtcyECjZWmLcIEbPiSWo115SxYXL7BKc8v8Enu-JhWFn-fm0wXkNijQE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Haarlem"@nl,
+        "Leiden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Koopman in zijn kantoor"@nl,
+        "Koopman in zijn kantoor, Jacobus Ludovicus Cornet, 1825 - 1882"@nl ;
+    schema:width 2086 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6846> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-BI-6846" ;
+    schema:image <https://lh5.ggpht.com/kqgjOpm9Vp-dhey_qrrZrDsrJoRFiaV7IzinLJnyVmFA_GxlMjDBPdTm6DvL_-Od6bM1B7fn88C0TQs2XI_S-5jbKQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Caspar van Baerle"@nl,
+        "Portret van Caspar van Baerle, Willem Jacobsz. Delff, 1625"@nl ;
+    schema:width 1726 .
+
+<http://example.org/work/ri-nl-RP-P-BI-6888> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-BI-6888" ;
+    schema:image <https://lh6.ggpht.com/p66DNYgznpWl5DOYC2i_0zTwxHTjS-AhNKFbaRH7amU9RcRjld8MysKhCsu0Ph0U1aegAx8Retc3K_bzssgcuel649A=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Johann Neander op 26-jarige leeftijd"@nl,
+        "Portret van Johann Neander op 26-jarige leeftijd, Willem Jacobsz. Delff, 1622"@nl ;
+    schema:width 1583 .
+
+<http://example.org/work/ri-nl-RP-P-H-1091> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-H-1091" ;
+    schema:image <https://lh5.ggpht.com/CXQUK0yQw7OaypDUgCM9Hs-zw7khPdOMEE0INGxFAiAdbAEx7vGWeYs4KfMbrYO7O2cMrZwfyt10WNTOqB3xev-JEpym=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Twee zingende jongens"@nl,
+        "Twee zingende jongens, Wallerant Vaillant, 1658 - 1677"@nl ;
+    schema:width 1994 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.210> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-17.210" ;
+    schema:image <https://lh4.ggpht.com/r3HGpwWl-R76g1_mY2SposaoOHH-LuunXPGyvtRn3lxmbnKAU626XTDGEkJfnXZn1Q2kOF6_m_6c2x-EHFGRLPfsCZQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jakob Zeeus"@nl,
+        "Portret van Jakob Zeeus, Arnold Houbraken, 1706 - 1719"@nl ;
+    schema:width 1809 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.211> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-17.211" ;
+    schema:image <https://lh3.ggpht.com/Fxkziv1wFDWYyAub5WMU4wT-i00ZJCVk1DiO37M-9KPm4LzLAjwklNdrgw4Okcgdwk-XmD5C-Y831vtTooaQ3RA0xA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jakob Zeeus"@nl,
+        "Portret van Jakob Zeeus, Arnold Houbraken, 1706 - 1719"@nl ;
+    schema:width 1805 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.212> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:height 1933 ;
+    schema:identifier "nl-RP-P-OB-17.212" ;
+    schema:image <https://lh6.ggpht.com/kqeKkUQUFsLjXSzB3lzjsXRUShcWQqtR6qH-kFUOdCLCtAjcCtDbTlzdyAdBy7hDwMAv2Aqhi717E5xjUbQ1ZSFOcw0=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Dordrecht"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Herderin en herder met hun kind"@nl,
+        "Herderin en herder met hun kind, Arnold Houbraken, 1670 - 1719"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.278> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-17.278" ;
+    schema:image <https://lh3.ggpht.com/wXGUAYyHLPJuf4KF7FPqCKadaoDm_xE7Ln2kkPClj-tleo_8lfse0q65F8M8QgMNxJOJz9mDVvz-GQQvjJWqi3bIzA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Adriaan Dortsman"@nl,
+        "Portret van Adriaan Dortsman, Pieter van der Plas (II), 1687 - 1708"@nl ;
+    schema:width 1891 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.287X> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-17.287X" ;
+    schema:image <https://lh5.ggpht.com/sWiLo9w4iKMMHEV4CUQqtvoGm3lHUB0Z8Eb2l93owAjl5bszV6ydU12hGn8E5fAEsPpwvoJZB_jcAimfkOas0kzeWGQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van de predikant Nicolaus Ruymvelt"@nl,
+        "Portret van de predikant Nicolaus Ruymvelt, Jeremias van Schaak, 1690 - 1727"@nl ;
+    schema:width 1877 .
+
+<http://example.org/work/ri-nl-RP-P-OB-17.301> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-17.301" ;
+    schema:image <https://lh3.googleusercontent.com/gPgKWdo21aA4xJbehcGCEozpk-pTEvAZjxgJC3MhOTiIOh-1RaWtSrmGZmUCcyNVOg3K4v8UPSDBl4neQH0YPCinu15v=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Droevige man"@nl,
+        "Droevige man, Aert Schouman, 1720 - 1792"@nl ;
+    schema:width 1934 .
+
+<http://example.org/work/ri-nl-RP-P-OB-28.014> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-28.014" ;
+    schema:image <https://lh3.googleusercontent.com/XhD4sEX_ZdhVCM0thcDwprbvKBmxSdNB2Nx2c1sjEncUFvAACusQf38zryldLW01XpBhReH_enewlelbmueeH4OuNZJr=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Nederland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Hond en schapen"@nl,
+        "Hond en schapen, Roelof van der Meulen, 1820 - 1833"@nl ;
+    schema:width 1826 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.476> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 1889 ;
+    schema:identifier "nl-RP-P-OB-46.476" ;
+    schema:image <https://lh4.ggpht.com/FrD8QnYiorPrVF7IUSubs2SMY61wWiN-t4YgJY8ynVm-29Hjn5M6DL9wlp1l0aqVB7FeSYwDc7VIL3Q6G68TaOzyQA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Kudde dieren bij een drinkplaats"@nl,
+        "Kudde dieren bij een drinkplaats, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.477> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 1885 ;
+    schema:identifier "nl-RP-P-OB-46.477" ;
+    schema:image <https://lh5.ggpht.com/eHbGzyMaYl2SwygnzWhx3WEiX6lteoq65NbefjDVzLYu2x5a0z3LM_PbTKI6cDAlk0Bblk7vS9mt9HubXtYPhYC5-Q=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Kudde dieren bij een bron"@nl,
+        "Kudde dieren bij een bron, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.481> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 2047 ;
+    schema:identifier "nl-RP-P-OB-46.481" ;
+    schema:image <https://lh5.ggpht.com/znzmdJfqmMtd74NmLtWH99vumBZjx1ykvA19GVFhpHlq7f4juhS2FlCTCaFhP00VHxmmtnxzbDuxv5_OOg8cX_QY_Q=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Ezel, schapen en een geit"@nl,
+        "Ezel, schapen en een geit, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.484> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 2060 ;
+    schema:identifier "nl-RP-P-OB-46.484" ;
+    schema:image <https://lh4.ggpht.com/89GiWHR_D_VRTUpuWrovVDCvge1hPFcH1fZIrLlDdk9muw41TFY2wuvsmpFLoPo6j8TLCJr6ID4aT9MyVXemY1f35R8=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Paard, geiten en schapen"@nl,
+        "Paard, geiten en schapen, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.486> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 1613 ;
+    schema:identifier "nl-RP-P-OB-46.486" ;
+    schema:image <https://lh3.ggpht.com/u41RlH4sfIqg5_ky6_OVn-WnNqcYevD-NMrzRD_iC3eNfJ1e896ZXyidaZkdy_2D03WQp-1sQ8dqAiFt7t1E3TxUA2o=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Ram"@nl,
+        "Ram, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.487> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 1660 ;
+    schema:identifier "nl-RP-P-OB-46.487" ;
+    schema:image <https://lh4.ggpht.com/NGB8Z0YB-f2_hnKeiAFLFtkr--5Dbgls9dZ3kkz4fjAiQi_Pa5Yfd-_BVpMvlQHIrjuzJCcQHTskuS81Z48UWMjM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Twee schapen en een geit"@nl,
+        "Twee schapen en een geit, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.492> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 2017 ;
+    schema:identifier "nl-RP-P-OB-46.492" ;
+    schema:image <https://lh6.ggpht.com/nui780DxY8fPj6h8MV1CXZ8fMpXtSHC37d8CLxfeGfBU2HWip6WgMaWnJCF2NWiv4B7B4AfJHs-R9mFnp5zggzZkXIVv=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Heuvellandschap met stroompje"@nl,
+        "Heuvellandschap met stroompje, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-46.497> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2046773> ;
+    schema:height 2132 ;
+    schema:identifier "nl-RP-P-OB-46.497" ;
+    schema:image <https://lh3.ggpht.com/mtuyUkV7F5LaFessyhrSONvfUBt26fUBKlo52Gu5Sn2JRuUaGtaz5q-_YrkeLGeplgPU7er0YYY0zbkdY4a3zhV75xI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Berglandschap met bouwsels"@nl,
+        "Berglandschap met bouwsels, Govert van der Leeuw, 1655 - 1688"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-48.829> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-48.829" ;
+    schema:image <https://lh4.ggpht.com/FNFxOfPuLqz9ssr9F-eslzdL-Ze36K8MUEEHDoAvNQPAu4u1WCKBFYB-WU6RsdJGcKm-8L3TyJQQHYzZPl1Plv3EhLs=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Koenraad van Beuningen"@nl,
+        "Portret van Koenraad van Beuningen, Jacob Houbraken, 1749 - 1759"@nl ;
+    schema:width 1656 .
+
+<http://example.org/work/ri-nl-RP-P-OB-48.830> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-48.830" ;
+    schema:image <https://lh3.googleusercontent.com/UR96TTzDV2mvCdGNqJoWKV6TKTDq86q7hXIj9SDp0d-RooEDbfhvzZDevZv3WjmMVwGV0wZOhgBzc88aHSdPRt8vGw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Koenraad van Beuningen"@nl,
+        "Portret van Koenraad van Beuningen, Jacob Houbraken, 1749 - 1759"@nl ;
+    schema:width 1656 .
+
+<http://example.org/work/ri-nl-RP-P-OB-50.100> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-50.100" ;
+    schema:image <https://lh3.googleusercontent.com/OKiG9pIFJKyJx0mi0WeIgqX4BreXOVmdZhq9Lht28veUvjjd0sy4S1rMBaJ4ohNmixToN-11jLmsmv2fo5KMZ6zeegsc=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Delft"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Gerard Thibault in architecturale omlijsting"@nl,
+        "Portret van Gerard Thibault in architecturale omlijsting, Willem Jacobsz. Delff, 1590 - 1638"@nl ;
+    schema:width 1719 .
+
+<http://example.org/work/ri-nl-RP-P-OB-50.784> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 1496 ;
+    schema:identifier "nl-RP-P-OB-50.784" ;
+    schema:image <https://lh4.ggpht.com/LjQhfT7S8jd8QRfz7AJNoPemsaJMX1nitvdSatrKF8Bqv4BLIPjXQ1k351EfT3fM5zL86KLaPY8N0Tcbo6gjLlHsLU4=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Verheerlijking van Cornelis de Witt met op de achtergrond de tocht naar Chatham, 1667"@nl,
+        "Verheerlijking van Cornelis de Witt met op de achtergrond de tocht naar Chatham, 1667, Simon Fokke, 1753 - 1782"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-54.968> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:identifier "nl-RP-P-OB-54.968" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl,
+        "Duitsland"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met zilveren schenkkan"@nl,
+        "Stilleven met zilveren schenkkan, William Unger, 1847 - 1889"@nl .
+
+<http://example.org/work/ri-nl-RP-P-OB-55.616> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-55.616" ;
+    schema:image <https://lh6.ggpht.com/qEJQ9AJ1vk8jVNUtm1LuIO9h00Q8GUyjPCfoES-a17bo65ugP-OTLVRszkXkFePayhQ-oRWAoPUk0fv-WBmNTt_QijI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Johan Maurits, graaf van Nassau-Siegen"@nl,
+        "Portret van Johan Maurits, graaf van Nassau-Siegen, Christiaan Hagen, ca. 1663 - 1695"@nl ;
+    schema:width 1950 .
+
+<http://example.org/work/ri-nl-RP-P-OB-71.734> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 1794 ;
+    schema:identifier "nl-RP-P-OB-71.734" ;
+    schema:image <https://lh6.ggpht.com/vRnjgb7KwJQb6rj7OFLRKb1zQWc5gg5Fx_ushr1zW1f8z40qOfB5L7jOBWUys2SbweZxv25Xa4y4KczGymErKo4EKg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De schuttersmaaltijd in de Voetboogdoelen of St. Jorisdoelen te Amsterdam ter viering van het sluiten van de vrede van Munster, 18 juni 1648"@nl,
+        "De schuttersmaaltijd in de Voetboogdoelen of St. Jorisdoelen te Amsterdam ter viering van het sluiten van de vrede van Munster, 18 juni 1648, Charles Emmanuel Patas, 1790 - 1796"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-P-OB-9245A> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-P-OB-9245A" ;
+    schema:image <https://lh3.ggpht.com/wkQ2WBZ0N9kvYEG4o6GX_dUKDxD31qhJUKY4n37Wy3ekyy7YaFNP1OBpVelG7PqJsyGbzvckbB7Pl9qJyzyRAbmmOG2u=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Amsterdam"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van de knipkunstenares Johanna Koerten"@nl,
+        "Portret van de knipkunstenares Johanna Koerten, Pieter Schenk (I), 1701"@nl ;
+    schema:width 1852 .
+
+<http://example.org/work/ri-nl-RP-T-00-122> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1570 ;
+    schema:identifier "nl-RP-T-00-122" ;
+    schema:image <https://lh4.ggpht.com/h2Jgj0MtTZ7HA0whUL5kIRuRD7VlCXVlXZN7Q_kWZFJZjcIslj7m3aKlywCYuvsfUqLcqNOK5ErqT4OI7PKfoINjRfA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met kromme kale bomen voor boerderijen"@nl,
+        "Landschap met kromme kale bomen voor boerderijen, Jan van Goyen, 1606 - 1656"@nl ;
+    schema:width 2976 .
+
+<http://example.org/work/ri-nl-RP-T-00-149> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1810 ;
+    schema:identifier "nl-RP-T-00-149" ;
+    schema:image <https://lh6.ggpht.com/p1gJ9JVG-LLs_oJsIFf14QISAqLP7_-ULnI3La8Vn2dxJ-ucPmQQE1Tu-PunshTRQHCYyUJ_CpoH1lIlRNXkrQSjDmUR=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met huizen en een bruggetje"@nl,
+        "Landschap met huizen en een bruggetje, Jan van Goyen (mogelijk), 1606 - 1656"@nl ;
+    schema:width 2610 .
+
+<http://example.org/work/ri-nl-RP-T-00-213> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2486642> ;
+    schema:height 2934 ;
+    schema:identifier "nl-RP-T-00-213" ;
+    schema:image <https://lh5.ggpht.com/oPH_ib2VQ6e-8fNXVT_WSBibVm9Vxhkkv13uuD9CWntn_Vl8JiRXbXvxr5dx97DoLfz6paY3-4qI2F-W68s2Vlqk1aM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Hoofd van een vrouw met een haarband"@nl,
+        "Hoofd van een vrouw met een haarband, David van der Plas, 1657 - 1704"@nl ;
+    schema:width 2097 .
+
+<http://example.org/work/ri-nl-RP-T-00-225(R)> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2062 ;
+    schema:identifier "nl-RP-T-00-225(R)" ;
+    schema:image <https://lh4.ggpht.com/NlLOmV5cNkL2V5p2fTUrpvTuwkjKMpuIDGav9jvXGxLCFXLeDru_I6ztR-yQdKHg40lsdL-8xJXbbaL7h6jI1Y59FSrs=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Jozef en zijn broers"@nl,
+        "Jozef en zijn broers, Govert Flinck (mogelijk), 1657 - 1659"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-00-343> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 1580 ;
+    schema:identifier "nl-RP-T-00-343" ;
+    schema:image <https://lh3.googleusercontent.com/e_pPXqp0x5QVxcDBq-nSaRE6twcsnn_-J8uvWWj99Hk4bw_VgsH91oqOM2wbhc44Kf_CZMQj0rlIwH3uBsbyG4s6cgE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Schutters van de compagnie van kapitein Joan Huydecoper en luitenant Frans van Waveren, 1648"@nl,
+        "Schutters van de compagnie van kapitein Joan Huydecoper en luitenant Frans van Waveren, 1648, Pieter Jansz. (toegeschreven aan), 1648 - 1672"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1881-A-126> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2844 ;
+    schema:identifier "nl-RP-T-1881-A-126" ;
+    schema:image <https://lh3.ggpht.com/jKW9kUR9wrsrbh9bilbu6HhcLYvG_AndaWtgC-oDzkGIyMBb9S4VnSqtjpj64uK6uD35vgUEApPaZoJ8NqBXg6eph9aU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een 14-jarige jongen"@nl,
+        "Portret van een 14-jarige jongen, David Bailly (toegeschreven aan), 1617"@nl ;
+    schema:width 2384 .
+
+<http://example.org/work/ri-nl-RP-T-1883-A-235> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:identifier "nl-RP-T-1883-A-235" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Borstbeeld van Seneca"@nl,
+        "Borstbeeld van Seneca, David Bailly, 1624"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1886-A-562> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2730 ;
+    schema:identifier "nl-RP-T-1886-A-562" ;
+    schema:image <https://lh5.ggpht.com/zXGasqqQGlAG14ChP4wadVuwlOdSFPRX_kW-AIPdgAjpABsN6qUzms5lHmUUQePfYQjqgetOn7Xtldj0iRjXChDE8yU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De Luitspeler"@nl,
+        "De Luitspeler, David Bailly, 1626"@nl ;
+    schema:width 2170 .
+
+<http://example.org/work/ri-nl-RP-T-1887-A-1347> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:identifier "nl-RP-T-1887-A-1347" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De Tijd vertoont het begrip der dingen aan de Waarheid"@nl,
+        "De Tijd vertoont het begrip der dingen aan de Waarheid, Arnold Houbraken (mogelijk), ca. 1715 - ca. 1718"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1888-A-1510> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2802 ;
+    schema:identifier "nl-RP-T-1888-A-1510" ;
+    schema:image <https://lh4.ggpht.com/HZyoWlJSYwxQuHV-j8ATWxc98jQPqOy8M530t5E--1Ef3HmATM-ibiKcc6JloY3LVutG-1RmLQiWofn_COCzGj1O2Q=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Een zittende aap aan een ketting"@nl,
+        "Een zittende aap aan een ketting, Hendrick Goltzius, 1592 - 1602"@nl ;
+    schema:width 2193 .
+
+<http://example.org/work/ri-nl-RP-T-1889-A-1944> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:identifier "nl-RP-T-1889-A-1944" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Romulus en Remus door de herder Faustulus gevonden"@nl,
+        "Romulus en Remus door de herder Faustulus gevonden, Arnold Houbraken, 1670 - 1719"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1891-A-2460> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2754 ;
+    schema:identifier "nl-RP-T-1891-A-2460" ;
+    schema:image <https://lh4.ggpht.com/jdDfUYOGs4846rYBOpASySAD4X924OOsSJT1y31no9n8Hp1UDYVqP37n0cv_DU7ydia4AQyx77CVRiBoiLtdWmJvhcc=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zittend vrouwelijk naakt"@nl,
+        "Zittend vrouwelijk naakt, Govert Flinck, 1647"@nl ;
+    schema:width 2408 .
+
+<http://example.org/work/ri-nl-RP-T-1893-A-2756> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 1698 ;
+    schema:identifier "nl-RP-T-1893-A-2756" ;
+    schema:image <https://lh3.ggpht.com/1-lM_KDvfOon312vnP6Y2F301EMC_JeBKfv4cbso81rdfAOwkTl6RvZZHB22i1_8J1J3rvgViW73V2q5fJ17AVehSa3-=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met vee"@nl,
+        "Landschap met vee, Jan van Gool, 1756"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1897-A-3418> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1858 ;
+    schema:identifier "nl-RP-T-1897-A-3418" ;
+    schema:image <https://lh3.ggpht.com/UIxJiDxt0KIDcG2-J0xOWdMn_aXc8sVCl57TfuULvC-rYAiXhrSpG0EWQNbAzlOiFBYKNxAtCjX1Ever0EBXxmbKuOU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Oostpoort in Delft"@nl,
+        "Oostpoort in Delft, Jan van Goyen, 1606 - 1656"@nl ;
+    schema:width 2946 .
+
+<http://example.org/work/ri-nl-RP-T-1898-A-3606> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-1898-A-3606" ;
+    schema:image <https://lh6.ggpht.com/QDy9iMabspIwJr6eDXYTb4skvG9TieWteA0fWqcLco0jWm6L907Cz3eBT3hQFPbfgimTASb7ruuSAZv4uSUQ2Qk5GNQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Italië"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Italiaanse binnenplaats met een waterput"@nl,
+        "Italiaanse binnenplaats met een waterput, Thomas Wijck, ca. 1644 - ca. 1653"@nl ;
+    schema:width 1834 .
+
+<http://example.org/work/ri-nl-RP-T-1900-A-4397> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:identifier "nl-RP-T-1900-A-4397" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De Haan"@nl,
+        "De Haan, Arnold Houbraken, 1670 - 1719"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1900-A-4402> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q514276> ;
+    schema:identifier "nl-RP-T-1900-A-4402" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Bedrog en Valsheid"@nl,
+        "Bedrog en Valsheid, Arnold Houbraken, 1670 - 1719"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1901-A-4496> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 1990 ;
+    schema:identifier "nl-RP-T-1901-A-4496" ;
+    schema:image <https://lh4.ggpht.com/O8yiphlm347a1BM-ym8P3uq3afNuL_g6tnDTmAq63VJnl4fcJ5LtGSgwUNW1aTzPR5nzU2_GSlKtXKvKWxWRMZkazA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Interieur van een eenvoudige houten woning"@nl,
+        "Interieur van een eenvoudige houten woning, Frans van Mieris (I), 1645 - 1681"@nl ;
+    schema:width 2520 .
+
+<http://example.org/work/ri-nl-RP-T-1913-11> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2604 ;
+    schema:identifier "nl-RP-T-1913-11" ;
+    schema:image <https://lh3.ggpht.com/FZ7ipeUFJ7YO8gSasvu7J3Ze_Ti87F8noaKw2UWTAXKGTKM6SiRbupTdLPgS_Es1sgcxM7FpcP4PMRVvf6qTplTy7w=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zelfportret van David Bailly"@nl,
+        "Zelfportret van David Bailly, David Bailly, 1626"@nl ;
+    schema:width 1968 .
+
+<http://example.org/work/ri-nl-RP-T-1913-48> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-1913-48" ;
+    schema:image <https://lh3.googleusercontent.com/5mymQoEWk30Eh3mYJhG_-BXtcN8rH7wXgwsXpbJJDZlAMxbVB-rpb904mV4iK2oMnTyRJ6Admml0Mkn9wdMB2V_mqmI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met vaatwerk in een schuur"@nl,
+        "Stilleven met vaatwerk in een schuur, Willem Kalf (mogelijk), 1632 - 1693"@nl ;
+    schema:width 1963 .
+
+<http://example.org/work/ri-nl-RP-T-1914-7(R)> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1357 ;
+    schema:identifier "nl-RP-T-1914-7(R)" ;
+    schema:image <https://lh3.ggpht.com/YfRaf_HM-eKnSwF5VT6uUDq9e4J3krjqN5at3k4O0frFEGoOPFo2A7h2Sbmyj_pin9rUKRfhUH60G2osk9hvEqU7uZw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Veer"@nl,
+        "Veer, Jan van Goyen, 1606 - 1656"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1919-56> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2012 ;
+    schema:identifier "nl-RP-T-1919-56" ;
+    schema:image <https://lh3.ggpht.com/Q0q2gKkwosyg_u2A4ovXPGnulK0iE7_XePQ_LKzB8esuF_Ef1E58b05pTUcXbsE4cci2f_AwwgtGJCF4aUHQMlpijA0=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Berglandschap met rivier, huizen op een rots en figuren"@nl,
+        "Berglandschap met rivier, huizen op een rots en figuren, Willem van Nieulandt (II), 1605"@nl ;
+    schema:width 2648 .
+
+<http://example.org/work/ri-nl-RP-T-1931-182> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2739 ;
+    schema:identifier "nl-RP-T-1931-182" ;
+    schema:image <https://lh3.googleusercontent.com/U12qfhXKux2aULinVaNwMeK53PgY6DS2GzT5354KZQxL5EEmqXOOvDEQCFqESa-e3-8YmRsvvNP8AhbwY8s6PZBdr0F9=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Berglandschap met waterval"@nl,
+        "Berglandschap met waterval, Roelant Savery, 1603 - 1613"@nl ;
+    schema:width 2952 .
+
+<http://example.org/work/ri-nl-RP-T-1936-9> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 1999 ;
+    schema:identifier "nl-RP-T-1936-9" ;
+    schema:image <https://lh3.ggpht.com/jBIY-EdweVTGo0e77ivQjhSxed4WmQF52y8Yt37dqVnOzEdt6rrAk5T0xm9z1LNqZUr_abavJLVlOq7D8idlxLlqNzA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Varkens en ezels onder bomen"@nl,
+        "Varkens en ezels onder bomen, Jan van Gool, 1695 - 1763"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1939-9> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2718 ;
+    schema:identifier "nl-RP-T-1939-9" ;
+    schema:image <https://lh3.googleusercontent.com/sb6OnbrM3yQEAnSZFm8jHk1DyoQZZkv4bxhH9qCQdzf9RBb4iXn0rktwnpkqHeHQBXqbzp74g-7_MR61bJ0qvywQng=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Heuvelachtig landschap met een dorp aan een rivier"@nl,
+        "Heuvelachtig landschap met een dorp aan een rivier, Roelant Savery, 1603 - 1613"@nl ;
+    schema:width 2249 .
+
+<http://example.org/work/ri-nl-RP-T-1940-356> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-1940-356" ;
+    schema:image <https://lh6.ggpht.com/umwo17IwODbxz1gBe8ID4Sr957Zqjt-aoB2h2cAcYP70CWbco_tL2oMc7DgnMm_SFYUEfMOWfHuFpjDSbLx4lTEvrA9W=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Jan Pynas"@nl,
+        "Portret van Jan Pynas, David Bailly, 1594 - 1707"@nl ;
+    schema:width 1941 .
+
+<http://example.org/work/ri-nl-RP-T-1959-179> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 3000 ;
+    schema:identifier "nl-RP-T-1959-179" ;
+    schema:image <https://lh4.ggpht.com/WVtHx2o76DOxVYntBs2dhrlXiaGwR6aBPFkfNNy5-BszNg1gUWmEiP7EBvdj3Eph91icvIHFkVaMKSLlFnJ_CDyLTQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een man, naar een 16e-eeuws model"@nl,
+        "Portret van een man, naar een 16e-eeuws model, David Bailly, 1624"@nl ;
+    schema:width 2444 .
+
+<http://example.org/work/ri-nl-RP-T-1961-74(R)> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1535 ;
+    schema:identifier "nl-RP-T-1961-74(R)" ;
+    schema:image <https://lh6.ggpht.com/W_X3F08DhGXdQLjjZLrKeJIjskKFecnYsWCN3CmaUEqKknvH6jP_AWaL9fVR9xaUs48BXL7FqCqN0eoGNj_cXKH5rQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Dorpskermis"@nl,
+        "Dorpskermis, Isaac van Ostade, 1630 - 1700"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1961-74(V)> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:identifier "nl-RP-T-1961-74(V)" ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Twee studies van een liggende man"@nl,
+        "Twee studies van een liggende man, Isaac van Ostade, 1630 - 1700"@nl .
+
+<http://example.org/work/ri-nl-RP-T-1962-293> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-1962-293" ;
+    schema:image <https://lh3.googleusercontent.com/Aj2gmzTcJmoptI1PZ_Hof5OKcn_dp-nv_KiMAn6DApDuV-LwYoJ1tm1Oq3UemHQEw3rWADODF3J6lwaPXpFTrCH51mo2=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De liefdesbrief"@nl,
+        "De liefdesbrief, Jan Veth, 1874 - 1925"@nl ;
+    schema:width 2058 .
+
+<http://example.org/work/ri-nl-RP-T-1962-9> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1858 ;
+    schema:identifier "nl-RP-T-1962-9" ;
+    schema:image <https://lh5.ggpht.com/hiPFsWQKWFUVjgb-r6ZTiJ6nxugwKkPZyVq6AjqvyI91bHvtUjraaJ01Zspe5mvnherHYGkaXXTbPZAKjmF-BKMgpyo=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Huizen bij de stadsmuur van Kleve"@nl,
+        "Huizen bij de stadsmuur van Kleve, Jan van Goyen, 1650 - 1651"@nl ;
+    schema:width 3000 .
+
+<http://example.org/work/ri-nl-RP-T-1963-259> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q724192> ;
+    schema:height 3000 ;
+    schema:identifier "nl-RP-T-1963-259" ;
+    schema:image <https://lh4.ggpht.com/NNgcBVOECB3WIJGU1Ck311wELTk5mcWhy8KrUEjDPhMOTIgVe49BK5COhjl9ozk5fMjGhhoF8Ez-J2lOE-Ve2TJ53ms=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van professor Gerardus Johannes Vossius"@nl,
+        "Portret van professor Gerardus Johannes Vossius, David Bailly, 1624"@nl ;
+    schema:width 2580 .
+
+<http://example.org/work/ri-nl-RP-T-1974-35> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 3778 ;
+    schema:identifier "nl-RP-T-1974-35" ;
+    schema:image <https://lh3.googleusercontent.com/4V71V32agm--9MNIb9NDkfFLycDqVQSNj_yfjR8u6ExnSwvbGcGO7t_j9dTvZYobXG2PwRoEHbaPaKXt1p5u1aeSKw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Italiaans kustlandschap"@nl,
+        "Italiaans kustlandschap, Nicolaas Box, 1810"@nl ;
+    schema:width 5249 .
+
+<http://example.org/work/ri-nl-RP-T-1975-84> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-1975-84" ;
+    schema:image <https://lh3.googleusercontent.com/QHKfV7PzVSqwi22mWqGawaWkwGYOv9t6fmFpivBVxpRVe-FfIY_uXz8VNNXhudZYVy1fIOpIscelNjhfQpowPU653qs=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Staande man bij een tafel"@nl,
+        "Staande man bij een tafel, Govert Flinck, 1644 - voor 1646"@nl ;
+    schema:width 1545 .
+
+<http://example.org/work/ri-nl-RP-T-1977-40> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2154 ;
+    schema:identifier "nl-RP-T-1977-40" ;
+    schema:image <https://lh3.ggpht.com/VWJjEgLyYxaNAjkL6cW574X2Ir46tp0RHhjWnEKGBihd4Q5K6m2LD9VgEWoTD9j1JMBoc0zkAhBOlURfIDqkPmY1bmxD=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zittende oude man met kleed over zijn schoot"@nl,
+        "Zittende oude man met kleed over zijn schoot, Govert Flinck, 1657 - 1659"@nl ;
+    schema:width 1972 .
+
+<http://example.org/work/ri-nl-RP-T-1982-76> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 1565 ;
+    schema:identifier "nl-RP-T-1982-76" ;
+    schema:image <https://lh3.googleusercontent.com/tmqamOMZN6N3e1g3i71wvX3M9XP4cNSAylU42aSVAbWxG9yFpa9IOL4c8WU-Ch9esW3H4xXrMVao3b5tm1JKl91nbw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zittend vrouwelijk naakt, op de rug gezien"@nl,
+        "Zittend vrouwelijk naakt, op de rug gezien, Govert Flinck, 1643"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-1989-94> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1802 ;
+    schema:identifier "nl-RP-T-1989-94" ;
+    schema:image <https://lh6.ggpht.com/LXSN5M6Fu00rGkhaWmX_KO9GEc4qogoURRa3-ZNJHJ4MByG1e6jM4Z2SszfL2_OJ6gQSBqYE8RVQ-HsYDRBSCd5PkJc=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Gezicht op een oever met herders en vee"@nl,
+        "Gezicht op een oever met herders en vee, Jan van Goyen, 1653"@nl ;
+    schema:width 3000 .
+
+<http://example.org/work/ri-nl-RP-T-2000-801> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 1852 ;
+    schema:identifier "nl-RP-T-2000-801" ;
+    schema:image <https://lh3.googleusercontent.com/JmDNJMkJm0KhjvvzmLRY5f9zaWVXozwgyDu43LsSoGjvuuomlFWNo2T6zX-lxZJdzqOdBPKLNIKzrB-jWQUNmCyTViE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Schuttersmaaltijd in de Voetboog (St. Joris) doelen te Amsterdam, ter viering van het sluiten van de Vrede van Munster, 18 juni 1648"@nl,
+        "Schuttersmaaltijd in de Voetboog (St. Joris) doelen te Amsterdam, ter viering van het sluiten van de Vrede van Munster, 18 juni 1648, Francesco Tozelli, 1795"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-RP-T-FM-46> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 2500 ;
+    schema:identifier "nl-RP-T-FM-46" ;
+    schema:image <https://lh5.ggpht.com/H4h5SyexWZM-oFS1TwosMnCJ4Azcui5kfT_DU1HN6G4Tg0hS3ttcJhmFhzjSTDFs2xEanmRVdYm7VUVHZVY59wiC1Dk=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een zittende oude vrouw met opengeslagen boek"@nl,
+        "Portret van een zittende oude vrouw met opengeslagen boek, Johannes Pieter de Frey, 1780 - 1834"@nl ;
+    schema:width 2196 .
+
+<http://example.org/work/ri-nl-SK-A-110> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2425 ;
+    schema:identifier "nl-SK-A-110" ;
+    schema:image <https://lh3.googleusercontent.com/W7Wql6tLFfflGAd7irldAENEwNTSuu9IlvKW0EqL3cR45wXZrnL0YPT28sBf6DfhEUr3Q6hNfM30ORrPYqaNo5u5J1w=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Isaak zegent Jakob"@nl,
+        "Isaak zegent Jakob, Govert Flinck, ca. 1638"@nl ;
+    schema:width 2940 .
+
+<http://example.org/work/ri-nl-SK-A-123> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 1997 ;
+    schema:identifier "nl-SK-A-123" ;
+    schema:image <https://lh3.googleusercontent.com/QsfzFCB00WMhTf2Rm9LN6FwMkM42_GLNi1tESzIv_wOpB0xu-TsXlV1-b_z97Dmch8n3a79dwahbKTxvmPHhOEML7bA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met twee eiken"@nl,
+        "Landschap met twee eiken, Jan van Goyen, 1641"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-1246> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-1246" ;
+    schema:image <https://lh3.googleusercontent.com/uIAAKcrSCN4gksWcK3TK89-NsmwvfJj8NwDBPsZiZVkCKzIHXeuKpbIn0FLr_ynGpjeln8OzMSqJilwNQY4qbYDMPjA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een man"@nl,
+        "Portret van een man, Frans Hals, ca. 1635"@nl ;
+    schema:width 2113 .
+
+<http://example.org/work/ri-nl-SK-A-1247> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2688 ;
+    schema:identifier "nl-SK-A-1247" ;
+    schema:image <https://lh3.googleusercontent.com/vglBZxUZILuWl61iUumkVZU9TPzBPUaXVHs_79jvn0HY4dLThEazBd2Y-yfEmHFRlJPv3V1gmjn21tp0FqNNzYr6hB_b=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een vrouw"@nl,
+        "Portret van een vrouw, Frans Hals, ca. 1635"@nl ;
+    schema:width 2168 .
+
+<http://example.org/work/ri-nl-SK-A-1297> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2039 ;
+    schema:identifier "nl-SK-A-1297" ;
+    schema:image <https://lh3.googleusercontent.com/g_RtGPipPXCRq_jHZr9WWg2W9WLGd4E_Y8G_Gj3oMVyliz_dT6NdT-fWoccB9SDSDRQgF9NDfNEUhEZs5xS1x3ql2hg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Elia door de raven gevoed"@nl,
+        "Elia door de raven gevoed, Roelant Savery (atelier van), 1634"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-133> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2531 ;
+    schema:identifier "nl-SK-A-133" ;
+    schema:image <https://lh3.googleusercontent.com/WJyYFvVf8ouRjhS-tVrP3w72w4nkqIsKvtBix7rZ3DHbpjsHmEF_eW689qEpIUhWfl7C-hqz56GE2pXHW4ewIIcrLlud=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een stel, waarschijnlijk Isaac Abrahamsz Massa en Beatrix van der Laen"@nl,
+        "Portret van een stel, waarschijnlijk Isaac Abrahamsz Massa en Beatrix van der Laen, Frans Hals, ca. 1622"@nl ;
+    schema:width 2988 .
+
+<http://example.org/work/ri-nl-SK-A-135> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 2646 ;
+    schema:identifier "nl-SK-A-135" ;
+    schema:image <https://lh3.googleusercontent.com/5aw-i_9ekbJ4pPjKVv43OCt71as9teFoMxTDfZb7JlPk7uecGFxzVpP9KM8mbRtzgP8ITC8vHEV4SJYkJkhniWjpcOQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Een schutter die een berkenmeier vasthoudt, bekend als ‘De vrolijke drinker’"@nl,
+        "Een schutter die een berkenmeier vasthoudt, bekend als ‘De vrolijke drinker’, Frans Hals, ca. 1628 - ca. 1630"@nl ;
+    schema:width 2254 .
+
+<http://example.org/work/ri-nl-SK-A-142> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-142" ;
+    schema:image <https://lh3.googleusercontent.com/Lubq4z5-Ef8VnteoX9lNeZWI8MunGg8HLlpdubITCa-csTuxJdxtjruEgxtG06E063fvOdtdcOuMaEb3uW-Zzvn0I8U=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Maria Stuart als weduwe van Willem II"@nl,
+        "Maria Stuart als weduwe van Willem II, Bartholomeus van der Helst, 1652"@nl ;
+    schema:width 2115 .
+
+<http://example.org/work/ri-nl-SK-A-147> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-147" ;
+    schema:image <https://lh3.googleusercontent.com/2XVzz6Nbh3oohR-NmDkVMkuGnPkYfClz7SSRBn5bgiE5KtJ8KqO8p1TdGh2sicrAGaGEGK294GnM0F-j9ZEPu3IRDQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van Gerard Andriesz Bicker"@nl,
+        "Portret van Gerard Andriesz Bicker, Bartholomeus van der Helst, ca. 1642"@nl ;
+    schema:width 1878 .
+
+<http://example.org/work/ri-nl-SK-A-1488> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 1950 ;
+    schema:identifier "nl-SK-A-1488" ;
+    schema:image <https://lh5.ggpht.com/ab4J-BptVtFSoaswHxO_duiNrCbr8qKHrISiKWZ_Scr1DYTHBvXsdyZ9YbjPpUPQfGDm6C6_Tqq8HzquzzKuA251P_4=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met ruïnes, vee en herten"@nl,
+        "Landschap met ruïnes, vee en herten, Roelant Savery, ca. 1614 - ca. 1620"@nl ;
+    schema:width 3000 .
+
+<http://example.org/work/ri-nl-SK-A-15> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759784> ;
+    schema:height 2724 ;
+    schema:identifier "nl-SK-A-15" ;
+    schema:image <https://lh3.googleusercontent.com/VeJdN2I51iWhexW7DL_ThmFXM3JOCLF3hq0ZQM0f2hwWtmlzp4bU93uXV_iL4TinHGgfY4ithBXjNbn3JmIa2CESISg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De lijken van de gebroeders De Witt"@nl,
+        "De lijken van de gebroeders De Witt, Jan de Baen (toegeschreven aan), ca. 1672 - ca. 1675"@nl ;
+    schema:width 2171 .
+
+<http://example.org/work/ri-nl-SK-A-1595> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2400 ;
+    schema:identifier "nl-SK-A-1595" ;
+    schema:image <https://lh3.googleusercontent.com/oYbIFLj5rMDJmCqpXKtSBnDlDpcnKDAkBDRqKxN_bhwFXlpcTmTkTz732X8nlRPal5iyBe9hUPGpJA4cfGRauRo1azM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De liefdesbrief"@nl,
+        "De liefdesbrief, Johannes Vermeer, ca. 1669 - ca. 1670"@nl ;
+    schema:width 2068 .
+
+<http://example.org/work/ri-nl-SK-A-1605> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 1643 ;
+    schema:identifier "nl-SK-A-1605" ;
+    schema:image <https://lh5.ggpht.com/OLPZHRcl61N_9r-iRxLPCEqjJWZpxayslE5ziN1yWtzsLtqqJ5hNLZ7cKDymKvSBzlULv4wGNB0f9hVoTneqQns6_g=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkuur"@nl,
+        "Het melkuur, Jan van Gool, 1710 - 1763"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-1920> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q684987> ;
+    schema:height 1796 ;
+    schema:identifier "nl-SK-A-1920" ;
+    schema:image <https://lh3.ggpht.com/nVKkHEOedHUHujaRzrosNXjsn7Tb04pFNalKs394YvwN7skWeJJzXFQXKLkj8WmM3LWMFlOkDE_Dle5aTBl-hsyH0JM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Dorpsstraat"@nl,
+        "Dorpsstraat, Cornelis Droochsloot, 1664"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-1948> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1742 ;
+    schema:identifier "nl-SK-A-1948" ;
+    schema:image <https://lh3.googleusercontent.com/4LUmA2ryI7FuM1BlOSb3Vmq4lQ1L1Cr9U06lLar8ktKgRyOCTNDAuEXWhoKariNpPGX6wtmFdHxxg3CjYmn5irnIGHFS=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap met pleisterplaats"@nl,
+        "Landschap met pleisterplaats, Aert van der Neer, 1639"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-199> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q28144> ;
+    schema:height 2592 ;
+    schema:identifier "nl-SK-A-199" ;
+    schema:image <https://lh3.googleusercontent.com/B7qhYTP1s_5HEhs34gXA-WK5M-1E7fwSh_HC_DhSVV6lHcexGHpDdl3nZsppT5gIdvC5As2y4eVP9xfUTbFUIuZWhHw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met zilveren kan en porseleinen kom"@nl,
+        "Stilleven met zilveren kan en porseleinen kom, Willem Kalf, 1655 - 1660"@nl ;
+    schema:width 2321 .
+
+<http://example.org/work/ri-nl-SK-A-2103> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q472522> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-2103" ;
+    schema:image <https://lh3.googleusercontent.com/dqwrZmV3OTlHhkTD80VHl2DHZyTAvNyiV85_wmb655abJQa-GrDAzuujold0YGeTFTUdzM_QnStTXsgVyT2S4OKVHPke=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met bloemen"@nl,
+        "Stilleven met bloemen, Balthasar van der Ast, ca. 1625 - ca. 1630"@nl ;
+    schema:width 1821 .
+
+<http://example.org/work/ri-nl-SK-A-2111> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q265398> ;
+    schema:height 1749 ;
+    schema:identifier "nl-SK-A-2111" ;
+    schema:image <https://lh3.googleusercontent.com/7ocYEIFjxpvjreJLLMKXgW4nyVeH-Zn1IAQc6fmk6W0L71GxDBA6qMdOzhw_yyZB1k8NOm04NGklnM86mtF0z6jY9y4=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Antwerpen"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met vissen, zeevruchten en bloemen"@nl,
+        "Stilleven met vissen, zeevruchten en bloemen, Clara Peeters, 1612 - ca. 1615"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-2113> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-2113" ;
+    schema:image <https://lh3.googleusercontent.com/q6VF5dfXmhLzAgAFxvpL3wXBkizmyTDZuF0oIAh6aspFQw3TTrJ9OE813TOfmq_Tgrkd3DmLv9pmAqXPi0qgFfr7eVE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Levantijnse haven"@nl,
+        "Levantijnse haven, Thomas Wijck, 1640 - 1677"@nl ;
+    schema:width 2055 .
+
+<http://example.org/work/ri-nl-SK-A-2116> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2641 ;
+    schema:identifier "nl-SK-A-2116" ;
+    schema:image <https://lh3.googleusercontent.com/Z-AF2Y6wbQR_y0TdYbsGYW7t0Oyac2QD2GkMehXgi4pGZlQrGJc7NS1uoSd8UgXgZzjLjWob41wYb-fqHor4pzJNrxE=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Liefdespaar"@nl,
+        "Liefdespaar, Jacob van Loo (toegeschreven aan), 1650 - 1660"@nl ;
+    schema:width 2068 .
+
+<http://example.org/work/ri-nl-SK-A-2128> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1741 ;
+    schema:identifier "nl-SK-A-2128" ;
+    schema:image <https://lh3.googleusercontent.com/eJKU-8VbE4b5gH-Si78i0gp63r_uRwXm4frjMCDInB5pDBr2nJ4w_PkWf-UhgWob-WKgQRW5BWZARfRGPNwJIJxU3e_b=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Landschap bij maanlicht"@nl,
+        "Landschap bij maanlicht, Aert van der Neer, 1630 - 1677"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-2152> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q472522> ;
+    schema:height 1612 ;
+    schema:identifier "nl-SK-A-2152" ;
+    schema:image <https://lh3.googleusercontent.com/Sas-9hjfD7DoNOx3nwbEqXIVODPk-LWNOLm94i2rNX_pgdpi1BoxGGEsviuaKj1IKYwxdKgJH1lW9pAf9uDsgwT_Dw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met vruchten en bloemen"@nl,
+        "Stilleven met vruchten en bloemen, Balthasar van der Ast, 1620 - 1621"@nl ;
+    schema:width 2870 .
+
+<http://example.org/work/ri-nl-SK-A-2211> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2449 ;
+    schema:identifier "nl-SK-A-2211" ;
+    schema:image <https://lh3.googleusercontent.com/41eQvc3qd-C0AZ_DozZNDwqg-Z0rTNcYK7Z2bn0DUsgfnpKykauNtIvVNwSrelEw9YQSuyw8Xn9RANDZi_S38zso7R4=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Koeien in een stal; in de vier hoeken heksen"@nl,
+        "Koeien in een stal; in de vier hoeken heksen, Roelant Savery, 1615"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-2344> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2548 ;
+    schema:identifier "nl-SK-A-2344" ;
+    schema:image <https://lh3.googleusercontent.com/cRtF3WdYfRQEraAcQz8dWDJOq3XsRX-h244rOw6zwkHtxy7NHjJOany7u4I2EG_uMAfNwBLHkFyLMENzpmfBTSYXIH_F=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Het melkmeisje"@nl,
+        "Het melkmeisje, Johannes Vermeer, ca. 1660"@nl ;
+    schema:width 2261 .
+
+<http://example.org/work/ri-nl-SK-A-2860> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 2682 ;
+    schema:identifier "nl-SK-A-2860" ;
+    schema:image <https://lh3.googleusercontent.com/QjRm4UQbUvfY3H8MOPYjQKvMWWMIITAI3jVto147znHC3_dEEYKJF_UQsj7FZ59VxEzxaauQ98bUAwFLSfLW3Syiza3Q=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Gezicht op huizen in Delft, bekend als ‘Het straatje’"@nl,
+        "Gezicht op huizen in Delft, bekend als ‘Het straatje’, Johannes Vermeer, ca. 1658"@nl ;
+    schema:width 2181 .
+
+<http://example.org/work/ri-nl-SK-A-290> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1957 ;
+    schema:identifier "nl-SK-A-290" ;
+    schema:image <https://lh3.googleusercontent.com/q5CSq30kX8T73Z5qLGgyN2AXdpbDLfdCr0Jwo-6zX4UBPh0j3FFnn3GEjC81829xONL8Ha4IeoURRnyBU2oqJzuhKGx9=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij winter"@nl,
+        "Riviergezicht bij winter, Aert van der Neer, 1655 - 1660"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3245> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1544 ;
+    schema:identifier "nl-SK-A-3245" ;
+    schema:image <https://lh3.googleusercontent.com/lDUCXkdLgEnz7CxeAgDDm-VP1_QT2nrheeC78MteC_p5vYTasRub7klYoGBR799z830oCesC8y7vl5wMIeUcAnXw_5eQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij maanlicht"@nl,
+        "Riviergezicht bij maanlicht, Aert van der Neer, ca. 1640 - ca. 1650"@nl ;
+    schema:width 2868 .
+
+<http://example.org/work/ri-nl-SK-A-3256> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 2146 ;
+    schema:identifier "nl-SK-A-3256" ;
+    schema:image <https://lh3.googleusercontent.com/1WZOkvkQAwq5sh3Kunk6CqnEtBlmNOaBVd8L_fGCfcdcK7FZPVtbN9gtbsEQ0j4XLDB0WqsZOODTe58oXAFZ9YEhaDo=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij winter"@nl,
+        "Riviergezicht bij winter, Aert van der Neer, 1630 - 1660"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3328> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1763 ;
+    schema:identifier "nl-SK-A-3328" ;
+    schema:image <https://lh3.googleusercontent.com/BMUs8n_toXrgIUUo0FVa_ydHg1ln_ebdEq5qJR8DGH3QOrSVa_qDWRLcjV3Z5kXpSt1htH_1JhshQYkj4RONlYRIx7A=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij maanlicht"@nl,
+        "Riviergezicht bij maanlicht, Aert van der Neer (manier van), 1630 - 1700"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3329> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1926 ;
+    schema:identifier "nl-SK-A-3329" ;
+    schema:image <https://lh3.googleusercontent.com/-UX7nCyiHbx4cTE-wZwSqZ_oQ2T6GEH1Cuf1GMpWJW5KhzF6j5Q1U3ry__YM8JWZlfSzumNsPKYcvqeTT2eOxgwDkYw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Dorp aan een bevroren vaart bij een sneeuwbui"@nl,
+        "Dorp aan een bevroren vaart bij een sneeuwbui, Aert van der Neer, 1630 - 1677"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3330> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1386 ;
+    schema:identifier "nl-SK-A-3330" ;
+    schema:image <https://lh3.googleusercontent.com/FwqLhWXEeJAVhv2Cl9m7c-GKUq0FfkRPAympJjLRv-ITpXPKA5Qhdzm6AF8V_IJsKYITUsfWtdUt5ipp5tsuO5sEZIU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij zonsopgang"@nl,
+        "Riviergezicht bij zonsopgang, Aert van der Neer (manier van), ca. 1630 - ca. 1750"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3451> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-3451" ;
+    schema:image <https://lh3.googleusercontent.com/acrCxDjpuRPxYMgtm3cQAf_W3rSMB1aMeyIgydJe0xa8-YXIJOAynOD6ssf5eV1bWN_yVokixHZTfo8e-FakXKctoQ=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Rembrandt als herder met staf en fluit"@nl,
+        "Rembrandt als herder met staf en fluit, Govert Flinck, 1636"@nl ;
+    schema:width 2127 .
+
+<http://example.org/work/ri-nl-SK-A-3483> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-3483" ;
+    schema:image <https://lh3.googleusercontent.com/C6rlryQLxLiG1TtPhwoS3U6T20xx2MQqpZhCSz0Ua5O-zpSSnimmorDsOhGdg-zvaM0ve3H0kfhnDOqbMuW3b4OszWaf=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Bacchanten-scène"@nl,
+        "Bacchanten-scène, Jacob van Loo, 1653"@nl ;
+    schema:width 2167 .
+
+<http://example.org/work/ri-nl-SK-A-3496> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 1899 ;
+    schema:identifier "nl-SK-A-3496" ;
+    schema:image <https://lh3.ggpht.com/7M5DgK2rWRNQthAFfuQLGquOjDCSGtvuRvEzGJ1MIH2aDNORRMBva2Uawgw__2GiJidzhOEJdw1aMbgTeQ2ne_JuxPc=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij maanlicht"@nl,
+        "Riviergezicht bij maanlicht, Aert van der Neer (manier van), 1630 - 1750"@nl ;
+    schema:width 2874 .
+
+<http://example.org/work/ri-nl-SK-A-366> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 1695 ;
+    schema:identifier "nl-SK-A-366" ;
+    schema:image <https://lh3.googleusercontent.com/BReoworMYs6Jbq4ufxzHCjatpzK6uZRPQ51Tg6_Rtz_rzUzdR3brC20z5tYLjKQgFjap0vG5qFOtSN0MmAjgaXDmfgeb=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De dichter op het feest der dieren gekroond door twee apen"@nl,
+        "De dichter op het feest der dieren gekroond door twee apen, Roelant Savery (atelier van), 1623"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-3749> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-3749" ;
+    schema:image <https://lh3.googleusercontent.com/dwzBh1IZhWOqJDLZLVAowsCe9KL3-gXMeaRud3r0xg80gPJVvEpQdXLuPCn7v4buOoXGDOk3fiLV89Jgzz7A9nk8Vyg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een man, vermoedelijk Christoffel van Gangelt, tweede echtgenoot van Lucretia Boudaen"@nl,
+        "Portret van een man, vermoedelijk Christoffel van Gangelt, tweede echtgenoot van Lucretia Boudaen, Jacob van Loo (toegeschreven aan), 1640 - 1670"@nl ;
+    schema:width 1851 .
+
+<http://example.org/work/ri-nl-SK-A-3750> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-3750" ;
+    schema:image <https://lh3.googleusercontent.com/t020Tmmu8X0LXzWvsjfCj4hD7T-gNukwYEGaL14iWZIjKc8VVcjUNy2MC7TSRCg9qwsLyICRhMh1T7GAgwsAhHoSgw=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Portret van een vrouw, vermoedelijk Lucretia Boudaen, echtgenote van Jean Orrt en tweede echtgenote van Christoffel van Gangelt"@nl,
+        "Portret van een vrouw, vermoedelijk Lucretia Boudaen, echtgenote van Jean Orrt en tweede echtgenote van Christoffel van Gangelt, Jacob van Loo (kopie naar), 1640 - 1670"@nl ;
+    schema:width 1847 .
+
+<http://example.org/work/ri-nl-SK-A-3945> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q315996> ;
+    schema:height 2456 ;
+    schema:identifier "nl-SK-A-3945" ;
+    schema:image <https://lh3.googleusercontent.com/CAJN2sEzDBWyAusBYhOrjxLizjRsuv9YBwIaYCurLXUN6JlAdwCQZZISqXEGS-d1n2psvkTirHZHXtHm61kifXqM0v8_=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:locationCreated "Noordelijke Nederlanden"@nl ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zomer"@nl,
+        "Zomer, Jan van Goyen, 1625"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-A-489> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q709404> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-489" ;
+    schema:image <https://lh3.googleusercontent.com/5Si9dyr9x9B-fWsYRI6Q2-sruvgnShkokpC4f_zZaTM-iENbzgeOC207Mn0rEW6pTC003wqbhg8upMKBHtPalehevA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De alchemist"@nl,
+        "De alchemist, Thomas Wijck, 1640 - 1677"@nl ;
+    schema:width 2198 .
+
+<http://example.org/work/ri-nl-SK-A-4950> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-A-4950" ;
+    schema:image <https://lh3.googleusercontent.com/xIuyngj0TwcDJyZLrxiZ3H546LEtG0MM1UqKoAVDrrvTCxNDzDGvqXnwG1fcYjFTJ6oq61tMdfn-8JSDq5WURPElPDM=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Zelfportret, circa 1660"@nl,
+        "Zelfportret, circa 1660, Jacob van Loo, 1655 - 1665"@nl ;
+    schema:width 2083 .
+
+<http://example.org/work/ri-nl-SK-A-799> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q759775> ;
+    schema:height 2424 ;
+    schema:identifier "nl-SK-A-799" ;
+    schema:image <https://lh3.googleusercontent.com/D2IPnfkJPa8cPSuhehu5e2aeteqzK5Zb0OzL9-zA4_FHBQHrD8RLT_3XZ9FDYtE64e_cdqTxZF_VfG4MsPcKr90FV6E=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Stilleven met bloemen"@nl,
+        "Stilleven met bloemen, Hans Bollongier, 1639"@nl ;
+    schema:width 1904 .
+
+<http://example.org/work/ri-nl-SK-A-81> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q2576955> ;
+    schema:height 2199 ;
+    schema:identifier "nl-SK-A-81" ;
+    schema:image <https://lh3.googleusercontent.com/mp5HguufXvqJwMxAFeRwgcH8S3_TKearq_VGjaWtGLcYaSNzhAvfnYOGPa1G-hkOrZ6O85JH6m5dMOE2MsJJdxe0kPY=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "De familie Meebeeck Cruywagen bij de poort van hun buitenhuis aan de Uitweg bij Amsterdam"@nl,
+        "De familie Meebeeck Cruywagen bij de poort van hun buitenhuis aan de Uitweg bij Amsterdam, Jacob van Loo (toegeschreven aan), 1640 - 1645"@nl ;
+    schema:width 2895 .
+
+<http://example.org/work/ri-nl-SK-C-133> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q12023294> ;
+    schema:height 1319 ;
+    schema:identifier "nl-SK-C-133" ;
+    schema:image <https://lh3.ggpht.com/s35vX3vM1HO2OGjhB_Y3gkfV8xlan2KW5dBgQX9pdPbIwa8LtPYQaEixP8-UOiD9Zrm2J1398kzN-gc4M7JgcRcEWpg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Arcadisch landschap met herders en vee"@nl,
+        "Arcadisch landschap met herders en vee, Jan van Gool, 1710 - 1763"@nl ;
+    schema:width 2000 .
+
+<http://example.org/work/ri-nl-SK-C-191> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q381801> ;
+    schema:height 2014 ;
+    schema:identifier "nl-SK-C-191" ;
+    schema:image <https://lh3.googleusercontent.com/M-g-PEPeNCaUIN8VaBbVkXW26wFU7IBdRtH9ybVqp7ZLj9HeW3Cj5qq_rgvxkFrqdW8J3LLj7jfBRQawuS5duVxsJLg=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Riviergezicht bij winter"@nl,
+        "Riviergezicht bij winter, Aert van der Neer, ca. 1655 - ca. 1660"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-C-2> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q380704> ;
+    schema:height 1034 ;
+    schema:identifier "nl-SK-C-2" ;
+    schema:image <https://lh3.googleusercontent.com/kmCDKP1kMN72zB-7CHBOBdCnyU3Z-NW7WIzuN_sIqm5n9xf6lG4oTtfcWsGW8qhbVYuwSDkYlhOglx7z4YaFL8UeFWU=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Schuttersmaaltijd ter viering van de Vrede van Munster"@nl,
+        "Schuttersmaaltijd ter viering van de Vrede van Munster, Bartholomeus van der Helst, 1648"@nl ;
+    schema:width 2500 .
+
+<http://example.org/work/ri-nl-SK-C-251> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q41264> ;
+    schema:height 3000 ;
+    schema:identifier "nl-SK-C-251" ;
+    schema:image <https://lh3.googleusercontent.com/n7X03-aBMaHLQmd9UZXy0WSO81bLI376BMv8tjXfah_-BqdJURY-FoyX_YJKj5WuV5j3P8rLNEHM-T8jJztag9FQZkD3=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Brieflezende vrouw"@nl,
+        "Brieflezende vrouw, Johannes Vermeer, ca. 1663"@nl ;
+    schema:width 2502 .
+
+<http://example.org/work/ri-nl-SK-C-370> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2215 ;
+    schema:identifier "nl-SK-C-370" ;
+    schema:image <https://lh3.googleusercontent.com/zWd-l_Fjo6KhldQOUlh_kBbYf9cIwVV0kIypO1xWETwQ0b0clGP2Igfaoum1SpJNCAfeqZfkIVYokzj4Qg0GAtrCXSI=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Vier doelheren der Kloveniersdoelen, Amsterdam, 1642"@nl,
+        "Vier doelheren der Kloveniersdoelen, Amsterdam, 1642, Govert Flinck, 1642"@nl ;
+    schema:width 3000 .
+
+<http://example.org/work/ri-nl-SK-C-371> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q550401> ;
+    schema:height 2500 ;
+    schema:identifier "nl-SK-C-371" ;
+    schema:image <https://lh3.googleusercontent.com/HnnjmcsmaQL7rH47kDlBz6fxRNeTmoC_u6FVMfA0rkG8F_2l7JIskZEbJCmHB-1SLQ9U8AyMrxfAOwt6i63HVrOPWA=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Officieren en andere schutters van wijk XVIII in Amsterdam onder leiding van kapitein Albert Bas en luitenant Lucas Conijn"@nl,
+        "Officieren en andere schutters van wijk XVIII in Amsterdam onder leiding van kapitein Albert Bas en luitenant Lucas Conijn, Govert Flinck, 1645"@nl ;
+    schema:width 1770 .
+
+<http://example.org/work/ri-nl-SK-C-374> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q167654> ;
+    schema:height 1380 ;
+    schema:identifier "nl-SK-C-374" ;
+    schema:image <https://lh4.ggpht.com/w-9ruGKvMxcvzBn4hhRICkisIP5U05xD2bNthIWO8hb62h24zcMgj76LTdLA15sS8CFh9AQHioRLgNisR0TnftamgGmY=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Schutters van wijk XI onder leiding van kapitein Reynier Reael, bekend als ‘De magere compagnie’"@nl,
+        "Schutters van wijk XI onder leiding van kapitein Reynier Reael, bekend als ‘De magere compagnie’, Frans Hals, Pieter Codde, 1637"@nl ;
+    schema:width 2928 .
+
+<http://example.org/work/ri-nl-SK-C-447> a schema:CreativeWork,
+        schema:Painting ;
+    schema:creator <http://example.org/person/Q142710> ;
+    schema:height 2180 ;
+    schema:identifier "nl-SK-C-447" ;
+    schema:image <https://lh6.ggpht.com/tWo3dUzWnf-RKgV-Jahh0vppBFmE0LrNuA_bfNUViWeQ8MkF7yShuPHm0-ncWdf-MqHusJ1wOi8jBZ3JaPR93-Yre70=s0> ;
+    schema:license <https://www.rijksmuseum.nl/en/data/policy> ;
+    schema:maintainer <https://www.rijksmuseum.nl/> ;
+    schema:name "Everzwijnjacht in een rotsachtig landschap"@nl,
+        "Everzwijnjacht in een rotsachtig landschap, Roelant Savery, 1620"@nl ;
+    schema:width 2972 .
+
+<http://example.org/person/Q265398> a ns1:Person,
+        schema:Person ;
+    ns1:name "Clara Peeters" ;
+    schema:identifier "Q265398" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q265398>,
+        <https://viaf.org/viaf/813644> .
+
+<http://example.org/person/Q684987> a ns1:Person,
+        schema:Person ;
+    ns1:name "Cornelis Droochsloot" ;
+    schema:identifier "Q684987" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q684987>,
+        <https://viaf.org/viaf/95697903> .
+
+<http://example.org/person/Q759747> a ns1:Person,
+        schema:Person ;
+    ns1:name "Evert van Aelst" ;
+    schema:identifier "Q759747" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q759747>,
+        <https://viaf.org/viaf/90812626> .
+
+<http://example.org/person/Q759775> a ns1:Person,
+        schema:Person ;
+    ns1:name "Hans Bollongier" ;
+    schema:identifier "Q759775" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q759775>,
+        <https://viaf.org/viaf/56883813> .
+
+<http://example.org/person/Q472522> a ns1:Person,
+        schema:Person ;
+    ns1:name "Balthasar van der Ast" ;
+    schema:identifier "Q472522" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q472522>,
+        <https://viaf.org/viaf/57514749> .
+
+<http://example.org/person/Q17343011> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jacob de Gheyn III" ;
+    schema:identifier "Q17343011" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q17343011>,
+        <https://viaf.org/viaf/60611905> .
+
+<http://example.org/person/Q28144> a ns1:Person,
+        schema:Person ;
+    ns1:name "Willem Kalf" ;
+    schema:identifier "Q28144" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q28144>,
+        <https://viaf.org/viaf/52484309> .
+
+<http://example.org/person/Q12023294> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jan van Gool" ;
+    schema:identifier "Q12023294" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q12023294>,
+        <https://viaf.org/viaf/57416265> .
+
+<http://example.org/person/Q142710> a ns1:Person,
+        schema:Person ;
+    ns1:name "Roelant Savery" ;
+    schema:identifier "Q142710" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q142710>,
+        <https://viaf.org/viaf/5728201> .
+
+<http://example.org/person/Q167654> a ns1:Person,
+        schema:Person ;
+    ns1:name "Frans Hals" ;
+    schema:identifier "Q167654" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q167654>,
+        <https://viaf.org/viaf/100165653> .
+
+<http://example.org/person/Q2046773> a ns1:Person,
+        schema:Person ;
+    ns1:name "Govert van der Leeuw" ;
+    schema:identifier "Q2046773" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2046773>,
+        <https://viaf.org/viaf/61820157> .
+
+<http://example.org/person/Q2486642> a ns1:Person,
+        schema:Person ;
+    ns1:name "David van der Plas" ;
+    schema:identifier "Q2486642" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2486642>,
+        <https://viaf.org/viaf/22412408> .
+
+<http://example.org/person/Q2576955> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jacob van Loo" ;
+    schema:identifier "Q2576955" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2576955>,
+        <https://viaf.org/viaf/95460534> .
+
+<http://example.org/person/Q380704> a ns1:Person,
+        schema:Person ;
+    ns1:name "Bartholomeus van der Helst" ;
+    schema:identifier "Q380704" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q380704>,
+        <https://viaf.org/viaf/5995918> .
+
+<http://example.org/person/Q381801> a ns1:Person,
+        schema:Person ;
+    ns1:name "Aert van der Neer" ;
+    schema:identifier "Q381801" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q381801>,
+        <https://viaf.org/viaf/51959012> .
+
+<http://example.org/person/Q41264> a ns1:Person,
+        schema:Person ;
+    ns1:name "Johannes Vermeer" ;
+    schema:identifier "Q41264" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q41264>,
+        <https://viaf.org/viaf/51961439> .
+
+<http://example.org/person/Q514276> a ns1:Person,
+        schema:Person ;
+    ns1:name "Arnold Houbraken" ;
+    schema:identifier "Q514276" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q514276>,
+        <https://viaf.org/viaf/74086960> .
+
+<http://example.org/person/Q550401> a ns1:Person,
+        schema:Person ;
+    ns1:name "Govert Flinck" ;
+    schema:identifier "Q550401" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q550401>,
+        <https://viaf.org/viaf/29801997> .
+
+<http://example.org/person/Q5598> a ns1:Person,
+        schema:Person ;
+    ns1:name "Rembrandt" ;
+    schema:identifier "Q5598" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5598>,
+        <https://viaf.org/viaf/64013650> .
+
+<http://example.org/person/Q709404> a ns1:Person,
+        schema:Person ;
+    ns1:name "Thomas Wijck" ;
+    schema:identifier "Q709404" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q709404>,
+        <https://viaf.org/viaf/40268564> .
+
+<http://example.org/person/Q719666> a ns1:Person,
+        schema:Person ;
+    ns1:name "Karel Dujardin" ;
+    schema:identifier "Q719666" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q719666>,
+        <https://viaf.org/viaf/305405831> .
+
+<http://example.org/person/Q724192> a ns1:Person,
+        schema:Person ;
+    ns1:name "David Bailly" ;
+    schema:identifier "Q724192" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q724192>,
+        <https://viaf.org/viaf/61820967> .
+
+<http://example.org/person/Q759784> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jan de Baen" ;
+    schema:identifier "Q759784" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q759784>,
+        <https://viaf.org/viaf/95822303> .
+
+<http://example.org/person/Q315996> a ns1:Person,
+        schema:Person ;
+    ns1:name "Jan van Goyen" ;
+    schema:identifier "Q315996" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q315996>,
+        <https://viaf.org/viaf/14817785> .
+
