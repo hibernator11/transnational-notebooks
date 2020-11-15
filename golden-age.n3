@@ -1,13 +1,13 @@
-@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/person/Q1296941> a ns1:Person,
+<http://example.org/person/Q1296941> a foaf:Person,
         schema:Person ;
-    ns1:name "Egbert van der Poel" ;
+    foaf:name "Egbert van der Poel" ;
     schema:identifier "Q1296941" ;
     schema:sameAs <http://www.wikidata.org/entity/Q1296941>,
         <https://viaf.org/viaf/37188512> .
@@ -16,58 +16,58 @@
 
 <http://example.org/person/Q201315> a schema:Person .
 
-<http://example.org/person/Q205863> a ns1:Person,
+<http://example.org/person/Q205863> a foaf:Person,
         schema:Person ;
-    ns1:name "Jan Steen" ;
+    foaf:name "Jan Steen" ;
     schema:identifier "Q205863" ;
     schema:sameAs <http://www.wikidata.org/entity/Q205863>,
         <https://viaf.org/viaf/15041897> .
 
-<http://example.org/person/Q2359229> a ns1:Person,
+<http://example.org/person/Q2359229> a foaf:Person,
         schema:Person ;
-    ns1:name "Jan Albertsz Rotius" ;
+    foaf:name "Jan Albertsz Rotius" ;
     schema:identifier "Q2359229" ;
     schema:sameAs <http://www.wikidata.org/entity/Q2359229>,
         <https://viaf.org/viaf/95736294> .
 
-<http://example.org/person/Q2581805> a ns1:Person,
+<http://example.org/person/Q2581805> a foaf:Person,
         schema:Person ;
-    ns1:name "Jacob Rotius" ;
+    foaf:name "Jacob Rotius" ;
     schema:identifier "Q2581805" ;
     schema:sameAs <http://www.wikidata.org/entity/Q2581805>,
         <https://viaf.org/viaf/95771549> .
 
-<http://example.org/person/Q3313485> a ns1:Person,
+<http://example.org/person/Q3313485> a foaf:Person,
         schema:Person ;
-    ns1:name "Hans Jordaens" ;
+    foaf:name "Hans Jordaens" ;
     schema:identifier "Q3313485" ;
     schema:sameAs <http://www.wikidata.org/entity/Q3313485>,
         <https://viaf.org/viaf/95687660> .
 
-<http://example.org/person/Q335927> a ns1:Person,
+<http://example.org/person/Q335927> a foaf:Person,
         schema:Person ;
-    ns1:name "Gerrit Dou" ;
+    foaf:name "Gerrit Dou" ;
     schema:identifier "Q335927" ;
     schema:sameAs <http://www.wikidata.org/entity/Q335927>,
         <https://viaf.org/viaf/96538660> .
 
-<http://example.org/person/Q348688> a ns1:Person,
+<http://example.org/person/Q348688> a foaf:Person,
         schema:Person ;
-    ns1:name "Pieter Leermans" ;
+    foaf:name "Pieter Leermans" ;
     schema:identifier "Q348688" ;
     schema:sameAs <http://www.wikidata.org/entity/Q348688>,
         <https://viaf.org/viaf/80992813> .
 
-<http://example.org/person/Q354832> a ns1:Person,
+<http://example.org/person/Q354832> a foaf:Person,
         schema:Person ;
-    ns1:name "Pieter Claesz" ;
+    foaf:name "Pieter Claesz" ;
     schema:identifier "Q354832" ;
     schema:sameAs <http://www.wikidata.org/entity/Q354832>,
         <https://viaf.org/viaf/47843985> .
 
-<http://example.org/person/Q3806961> a ns1:Person,
+<http://example.org/person/Q3806961> a foaf:Person,
         schema:Person ;
-    ns1:name "Johannes van Haensbergen" ;
+    foaf:name "Johannes van Haensbergen" ;
     schema:identifier "Q3806961" ;
     schema:sameAs <http://www.wikidata.org/entity/Q3806961>,
         <https://viaf.org/viaf/95853316> .
@@ -80,32 +80,32 @@
 
 <http://example.org/person/Q5723718> a schema:Person .
 
-<http://example.org/person/Q576009> a ns1:Person,
+<http://example.org/person/Q576009> a foaf:Person,
         schema:Person ;
-    ns1:name "Jacobus Mancadan" ;
+    foaf:name "Jacobus Mancadan" ;
     schema:identifier "Q576009" ;
     schema:sameAs <http://www.wikidata.org/entity/Q576009>,
         <https://viaf.org/viaf/67398457> .
 
 <http://example.org/person/Q5948891> a schema:Person .
 
-<http://example.org/person/Q7192819> a ns1:Person,
+<http://example.org/person/Q7192819> a foaf:Person,
         schema:Person ;
-    ns1:name "Pieter Pietersz Nedek" ;
+    foaf:name "Pieter Pietersz Nedek" ;
     schema:identifier "Q7192819" ;
     schema:sameAs <http://www.wikidata.org/entity/Q7192819>,
         <https://viaf.org/viaf/96259669> .
 
-<http://example.org/person/Q798827> a ns1:Person,
+<http://example.org/person/Q798827> a foaf:Person,
         schema:Person ;
-    ns1:name "Lambert Jacobsz" ;
+    foaf:name "Lambert Jacobsz" ;
     schema:identifier "Q798827" ;
     schema:sameAs <http://www.wikidata.org/entity/Q798827>,
         <https://viaf.org/viaf/294574511> .
 
-<http://example.org/person/Q978437> a ns1:Person,
+<http://example.org/person/Q978437> a foaf:Person,
         schema:Person ;
-    ns1:name "Gerard Hoet" ;
+    foaf:name "Gerard Hoet" ;
     schema:identifier "Q978437" ;
     schema:sameAs <http://www.wikidata.org/entity/Q978437>,
         <https://viaf.org/viaf/69200941> .
@@ -2505,170 +2505,170 @@ William Gray, gift to Harvard University, 1857.\r
         "Everzwijnjacht in een rotsachtig landschap, Roelant Savery, 1620"@nl ;
     schema:width 2972 .
 
-<http://example.org/person/Q265398> a ns1:Person,
+<http://example.org/person/Q265398> a foaf:Person,
         schema:Person ;
-    ns1:name "Clara Peeters" ;
+    foaf:name "Clara Peeters" ;
     schema:identifier "Q265398" ;
     schema:sameAs <http://www.wikidata.org/entity/Q265398>,
         <https://viaf.org/viaf/813644> .
 
-<http://example.org/person/Q684987> a ns1:Person,
+<http://example.org/person/Q684987> a foaf:Person,
         schema:Person ;
-    ns1:name "Cornelis Droochsloot" ;
+    foaf:name "Cornelis Droochsloot" ;
     schema:identifier "Q684987" ;
     schema:sameAs <http://www.wikidata.org/entity/Q684987>,
         <https://viaf.org/viaf/95697903> .
 
-<http://example.org/person/Q759747> a ns1:Person,
+<http://example.org/person/Q759747> a foaf:Person,
         schema:Person ;
-    ns1:name "Evert van Aelst" ;
+    foaf:name "Evert van Aelst" ;
     schema:identifier "Q759747" ;
     schema:sameAs <http://www.wikidata.org/entity/Q759747>,
         <https://viaf.org/viaf/90812626> .
 
-<http://example.org/person/Q759775> a ns1:Person,
+<http://example.org/person/Q759775> a foaf:Person,
         schema:Person ;
-    ns1:name "Hans Bollongier" ;
+    foaf:name "Hans Bollongier" ;
     schema:identifier "Q759775" ;
     schema:sameAs <http://www.wikidata.org/entity/Q759775>,
         <https://viaf.org/viaf/56883813> .
 
-<http://example.org/person/Q472522> a ns1:Person,
+<http://example.org/person/Q472522> a foaf:Person,
         schema:Person ;
-    ns1:name "Balthasar van der Ast" ;
+    foaf:name "Balthasar van der Ast" ;
     schema:identifier "Q472522" ;
     schema:sameAs <http://www.wikidata.org/entity/Q472522>,
         <https://viaf.org/viaf/57514749> .
 
-<http://example.org/person/Q17343011> a ns1:Person,
+<http://example.org/person/Q17343011> a foaf:Person,
         schema:Person ;
-    ns1:name "Jacob de Gheyn III" ;
+    foaf:name "Jacob de Gheyn III" ;
     schema:identifier "Q17343011" ;
     schema:sameAs <http://www.wikidata.org/entity/Q17343011>,
         <https://viaf.org/viaf/60611905> .
 
-<http://example.org/person/Q28144> a ns1:Person,
+<http://example.org/person/Q28144> a foaf:Person,
         schema:Person ;
-    ns1:name "Willem Kalf" ;
+    foaf:name "Willem Kalf" ;
     schema:identifier "Q28144" ;
     schema:sameAs <http://www.wikidata.org/entity/Q28144>,
         <https://viaf.org/viaf/52484309> .
 
-<http://example.org/person/Q12023294> a ns1:Person,
+<http://example.org/person/Q12023294> a foaf:Person,
         schema:Person ;
-    ns1:name "Jan van Gool" ;
+    foaf:name "Jan van Gool" ;
     schema:identifier "Q12023294" ;
     schema:sameAs <http://www.wikidata.org/entity/Q12023294>,
         <https://viaf.org/viaf/57416265> .
 
-<http://example.org/person/Q142710> a ns1:Person,
+<http://example.org/person/Q142710> a foaf:Person,
         schema:Person ;
-    ns1:name "Roelant Savery" ;
+    foaf:name "Roelant Savery" ;
     schema:identifier "Q142710" ;
     schema:sameAs <http://www.wikidata.org/entity/Q142710>,
         <https://viaf.org/viaf/5728201> .
 
-<http://example.org/person/Q167654> a ns1:Person,
+<http://example.org/person/Q167654> a foaf:Person,
         schema:Person ;
-    ns1:name "Frans Hals" ;
+    foaf:name "Frans Hals" ;
     schema:identifier "Q167654" ;
     schema:sameAs <http://www.wikidata.org/entity/Q167654>,
         <https://viaf.org/viaf/100165653> .
 
-<http://example.org/person/Q2046773> a ns1:Person,
+<http://example.org/person/Q2046773> a foaf:Person,
         schema:Person ;
-    ns1:name "Govert van der Leeuw" ;
+    foaf:name "Govert van der Leeuw" ;
     schema:identifier "Q2046773" ;
     schema:sameAs <http://www.wikidata.org/entity/Q2046773>,
         <https://viaf.org/viaf/61820157> .
 
-<http://example.org/person/Q2486642> a ns1:Person,
+<http://example.org/person/Q2486642> a foaf:Person,
         schema:Person ;
-    ns1:name "David van der Plas" ;
+    foaf:name "David van der Plas" ;
     schema:identifier "Q2486642" ;
     schema:sameAs <http://www.wikidata.org/entity/Q2486642>,
         <https://viaf.org/viaf/22412408> .
 
-<http://example.org/person/Q2576955> a ns1:Person,
+<http://example.org/person/Q2576955> a foaf:Person,
         schema:Person ;
-    ns1:name "Jacob van Loo" ;
+    foaf:name "Jacob van Loo" ;
     schema:identifier "Q2576955" ;
     schema:sameAs <http://www.wikidata.org/entity/Q2576955>,
         <https://viaf.org/viaf/95460534> .
 
-<http://example.org/person/Q380704> a ns1:Person,
+<http://example.org/person/Q380704> a foaf:Person,
         schema:Person ;
-    ns1:name "Bartholomeus van der Helst" ;
+    foaf:name "Bartholomeus van der Helst" ;
     schema:identifier "Q380704" ;
     schema:sameAs <http://www.wikidata.org/entity/Q380704>,
         <https://viaf.org/viaf/5995918> .
 
-<http://example.org/person/Q381801> a ns1:Person,
+<http://example.org/person/Q381801> a foaf:Person,
         schema:Person ;
-    ns1:name "Aert van der Neer" ;
+    foaf:name "Aert van der Neer" ;
     schema:identifier "Q381801" ;
     schema:sameAs <http://www.wikidata.org/entity/Q381801>,
         <https://viaf.org/viaf/51959012> .
 
-<http://example.org/person/Q41264> a ns1:Person,
+<http://example.org/person/Q41264> a foaf:Person,
         schema:Person ;
-    ns1:name "Johannes Vermeer" ;
+    foaf:name "Johannes Vermeer" ;
     schema:identifier "Q41264" ;
     schema:sameAs <http://www.wikidata.org/entity/Q41264>,
         <https://viaf.org/viaf/51961439> .
 
-<http://example.org/person/Q514276> a ns1:Person,
+<http://example.org/person/Q514276> a foaf:Person,
         schema:Person ;
-    ns1:name "Arnold Houbraken" ;
+    foaf:name "Arnold Houbraken" ;
     schema:identifier "Q514276" ;
     schema:sameAs <http://www.wikidata.org/entity/Q514276>,
         <https://viaf.org/viaf/74086960> .
 
-<http://example.org/person/Q550401> a ns1:Person,
+<http://example.org/person/Q550401> a foaf:Person,
         schema:Person ;
-    ns1:name "Govert Flinck" ;
+    foaf:name "Govert Flinck" ;
     schema:identifier "Q550401" ;
     schema:sameAs <http://www.wikidata.org/entity/Q550401>,
         <https://viaf.org/viaf/29801997> .
 
-<http://example.org/person/Q5598> a ns1:Person,
+<http://example.org/person/Q5598> a foaf:Person,
         schema:Person ;
-    ns1:name "Rembrandt" ;
+    foaf:name "Rembrandt" ;
     schema:identifier "Q5598" ;
     schema:sameAs <http://www.wikidata.org/entity/Q5598>,
         <https://viaf.org/viaf/64013650> .
 
-<http://example.org/person/Q709404> a ns1:Person,
+<http://example.org/person/Q709404> a foaf:Person,
         schema:Person ;
-    ns1:name "Thomas Wijck" ;
+    foaf:name "Thomas Wijck" ;
     schema:identifier "Q709404" ;
     schema:sameAs <http://www.wikidata.org/entity/Q709404>,
         <https://viaf.org/viaf/40268564> .
 
-<http://example.org/person/Q719666> a ns1:Person,
+<http://example.org/person/Q719666> a foaf:Person,
         schema:Person ;
-    ns1:name "Karel Dujardin" ;
+    foaf:name "Karel Dujardin" ;
     schema:identifier "Q719666" ;
     schema:sameAs <http://www.wikidata.org/entity/Q719666>,
         <https://viaf.org/viaf/305405831> .
 
-<http://example.org/person/Q724192> a ns1:Person,
+<http://example.org/person/Q724192> a foaf:Person,
         schema:Person ;
-    ns1:name "David Bailly" ;
+    foaf:name "David Bailly" ;
     schema:identifier "Q724192" ;
     schema:sameAs <http://www.wikidata.org/entity/Q724192>,
         <https://viaf.org/viaf/61820967> .
 
-<http://example.org/person/Q759784> a ns1:Person,
+<http://example.org/person/Q759784> a foaf:Person,
         schema:Person ;
-    ns1:name "Jan de Baen" ;
+    foaf:name "Jan de Baen" ;
     schema:identifier "Q759784" ;
     schema:sameAs <http://www.wikidata.org/entity/Q759784>,
         <https://viaf.org/viaf/95822303> .
 
-<http://example.org/person/Q315996> a ns1:Person,
+<http://example.org/person/Q315996> a foaf:Person,
         schema:Person ;
-    ns1:name "Jan van Goyen" ;
+    foaf:name "Jan van Goyen" ;
     schema:identifier "Q315996" ;
     schema:sameAs <http://www.wikidata.org/entity/Q315996>,
         <https://viaf.org/viaf/14817785> .
