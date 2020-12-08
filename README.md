@@ -4,7 +4,7 @@
 
 
 # transnational-notebook
-Jupyter notebooks to reuse the digital collections provided by digital libraries.
+Jupyter notebooks to create transnational and multilingual datasets reusing digital collections provided by GLAM institutions.
 
 
 ## Biblioteca Virtual Miguel de Cervantes (BVMC)
