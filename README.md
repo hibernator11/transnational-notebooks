@@ -23,7 +23,7 @@ The data is transformed to RDF using the [RDFLib Python library](https://rdflib.
 
 
 ## National libraries and authors of 17th century: A Wikidata approach
-This [notebook](Wikidata-lod-extraction.ipynb) describes how to query [Wikidata](https://www.wikidata.org) in order to retrieve authors provided by several national libraries. The SPARQL endpoint of Wikidata returns a JSON file as a result that is locally stored. The next step is based on the packaging of the dataset by means of the [Python Package library](https://specs.frictionlessdata.io/data-package). The result is a simple container format for describing a collection of data in a package. Finally, the data is analysed by means of charts in order to identify patterns and insights.
+This [notebook](Wikidata-lod-extraction.ipynb) describes how to query [Wikidata](https://www.wikidata.org) in order to retrieve authors provided by several national libraries. The [public SPARQL endpoint of Wikidata](https://query.wikidata.org/) returns a JSON file as a result that is locally stored. The next step is based on the packaging of the dataset by means of the [Python Package library](https://specs.frictionlessdata.io/data-package). The result is a simple container format for describing a collection of data in a package. Finally, the data is analysed by means of charts in order to identify patterns and insights.
 
 
 ## Additional information
