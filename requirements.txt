@@ -3,4 +3,4 @@ requests
 matplotlib==2.2.4
 networkx==2.4
 datapackage==1.13.0
-SPARQLWrapper=1.8.5
+SPARQLWrapper==1.8.5
