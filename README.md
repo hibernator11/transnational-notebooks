@@ -3,34 +3,28 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/transnational-notebooks/HEAD)
 
 
-# transnational-notebook
-Jupyter notebooks to create transnational and multilingual datasets reusing digital collections provided by GLAM institutions.
+# transnational-notebooks
+This project includes a collection of Jupyter notebooks to create transnational and multilingual datasets reusing digital collections provided by GLAM institutions.
 
 
-## Biblioteca Virtual Miguel de Cervantes (BVMC)
-This [notebook](bvmc-create-composite.ipynb) retrieves the covers from the Linked Open Data repository of the BVMC, data.cervantesvirtual.com. The covers of the books have been selected based on the authors [Miguel de Cervantes](http://data.cervantesvirtual.com/person/40), [Lope de Vega](http://data.cervantesvirtual.com/person/72) y [Calderón de la Barca](http://data.cervantesvirtual.com/person/79)). It is possible to change the authors by changing the identifiers (data.cervantesvirtual.com/person/id) that can be retrieved at data.cervantesvirtual.com.
+## Analysing multilingual newspapers: The French Revolution
+This [notebook](French-Revolution.ipynb) uses historic newspapers and select digitized newspaper pages provided by [Chronicling America](https://chroniclingamerica.loc.gov/about/) and [Europeana Newspapers](https://pro.europeana.eu/page/iiif) to create a transnational and multilingual dataset based on the French Revolution. 
 
-Then, the notebook creates a composite image with all the covers that is accessible at [easyzoom](https://www.easyzoom.com/imageaccess/acab10e5187b45d8ad802d8d302a4901). 
+Chronicling America provides an extensive application programming interface (API) which you can use to explore all of the data. The information is also published as, including the OCR text files. Europeana Newspapers is based on IIIF to search and access information about the digital objects.
 
-
-![Composite image from BVMC](http://data.cervantesvirtual.com/blog/wp-content/uploads/2020/05/composite-bvmc-388x220.png)
-
-The example has been limited to retrieve only 100 covers from the repository. However, it is possible to modify the SPARQL to retrieve, for instance, 2500 covers, as in the composite image provided.
-
-## BNB Linked Data Platform
-The [BNB Linked Data Platform](https://bnb.data.bl.uk/) provides access to the [British National Bibliography (BNB)](http://www.bl.uk/bibliographic/natbib.html) published as linked open data and made available through SPARQL services. 
-
-This [notebook](bnb-lod-extraction-map.ipynb) explains how to query the repository and obtain places of publication (fields blt:publication and blt:projectedPublication ) to show an interactive map. Thanks that the works are linked to [GeoNames](https://www.geonames.org/), the records can be linked to external repositories. This notebook obtains information from [Wikidata](https://www.wikidata.org), showing the benefits of Linked Open Data.
+The dataset is reused in order to identify named entities in the documents retrieved. We use multilingual named entity recognition based on the pre-trained BERT model to identify locations in the corpora. A random sample is selected from the corpora to identify the locations. Finally, a network graph is created to identify the most commons places named in the text.
 
 
-## Bibliothèque nationale de France (BnF)
-The Bibliothèque nationale de France published [data.bnf.fr](https://data.bnf.fr/) its resources by aggregating information scattered among its various catalogues and the Gallica digital library on dedicated HTML pages. Data.bnf.fr is an open data project based on semantic web standards and tools.
+## Golden Age: A transnational approach
+This [nootebook](Golden-Age-extraction.ipynb) starts by retrieving the authors of the Dutch Golden Age from Wikidata. The authors are enriched with paintings in two relevant repositories, the Rijksmuseum and the Harvard Art Museums. In this sense, different approaches are implemented in order to merge the datasets such as using the VIAF identifier and the number of the painters.
 
-This [notebook](bnf-graph-example.ipynb) shows how to exploit the editions of *les fleurs du mal de baudelaire* using different techniques. It also provides a CSV file as a dataset extracted from the SPARQL endpoint. This example shows how to analyse the information using the network graphs, identifying the most relevant characteristics of the information retrieved.
+The data is transformed to RDF using the Python library by means of the schema vocabulary. Authors and paintings are described and linked using the properties provided by the vocabulary schema. Finally, the RDF dataset is reused by means of SPARQL queries.
 
 
+## National libraries and authors of 17th century: A Wikidata approach
+This [notebook](Wikidata-lod-extraction.ipynb) describes how to query Wikidata in order to retrieve authors provided by several national libraries. The SPARQL endpoint of Wikidata returns a JSON file as a result that is locally stored. The next step is based on the packaging of the dataset by means of the Python Package library. The result is a simple container format for describing a collection of data in a package. Finally, the data is analysed by means of charts in order to identify patterns and insights.
 
-## References & notes
-This [notebook](create-composite-bvmc.ipynb) has been inspired by the the [GLAM Workbench](https://glam-workbench.github.io/), in particular the [notebook to create a composite image from Trove newspaper](https://nbviewer.jupyter.org/github/GLAM-Workbench/trove-newspapers/blob/master/Composite-thumbnails.ipynb).
 
-* Launch the notebook --NotebookApp.iopub_data_rate_limit=1e10
+## Additional information
+This collection of Jupyter notebooks has been inspired by the [International GLAM Labs Community](https://glamlabs.io/) and the [GLAM Workbench](https://glam-workbench.github.io/). 
+
