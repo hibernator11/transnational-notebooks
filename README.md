@@ -17,7 +17,7 @@ The dataset is reused in order to identify named entities in the documents retri
 
 
 ## Golden Age: A transnational approach
-This [nootebook](Golden-Age-extraction.ipynb) starts by retrieving the authors of the Dutch Golden Age from Wikidata. The authors are enriched with paintings in two relevant repositories, the [Rijksmuseum](https://www.rijksmuseum.nl/en) and the [Harvard Art Museums](https://harvardartmuseums.org/). In this sense, different approaches are implemented in order to merge the datasets such as using the VIAF identifier and the number of the painters.
+This [notebook](Golden-Age-extraction.ipynb) starts by retrieving the authors of the Dutch Golden Age from Wikidata. The authors are enriched with paintings in two relevant repositories, the [Rijksmuseum](https://www.rijksmuseum.nl/en) and the [Harvard Art Museums](https://harvardartmuseums.org/). In this sense, different approaches are implemented in order to merge the datasets such as using the VIAF identifier and the number of the painters.
 
 The data is transformed to RDF using the [RDFLib Python library](https://rdflib.readthedocs.io/en/stable/) by means of the [schema.org](https://schema.org/) vocabulary. Authors and paintings are described and linked using the properties provided by the vocabulary schema. Finally, the RDF dataset is reused by means of SPARQL queries.
 
